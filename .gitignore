@@ -1,2 +1,3 @@
 ./ccc/package.json
 ./ccc/package-lock.json
+./ccc/app/config.php
