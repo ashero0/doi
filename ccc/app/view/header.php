@@ -64,15 +64,15 @@
 			  		About
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			  		  <a class="dropdown-item" href="<?=BASE_URL?>/about/about-cook">About Cook Counseling Center</a>
-			  		  <a class="dropdown-item" href="<?=BASE_URL?>/about/hours-and-location">Hours & Location</a>
-					  <a class="dropdown-item" href="<?=BASE_URL?>/about/staff">Staff</a>
-					  <a class="dropdown-item" href="<?=BASE_URL?>/about/contact-us">Contact Us</a>
-					  <a class="dropdown-item" href="<?=BASE_URL?>/about/confidentiality-policy">Confidentiality Policy</a>
-					  <a class="dropdown-item" href="<?=BASE_URL?>/about/forms">Forms</a>
-					  <a class="dropdown-item" href="<?=BASE_URL?>/about/outreach">Outreach</a>
-					  <a class="dropdown-item" href="<?=BASE_URL?>/about/giving">Giving</a>
-					  <a class="dropdown-item" href="<?=BASE_URL?>/about/graduate-training">Graduate Training</a>
+			  		  <a class="dropdown-item" href="<?=BASE_URL?>about/about-cook">About Cook Counseling Center</a>
+			  		  <a class="dropdown-item" href="<?=BASE_URL?>about/hours-and-location">Hours & Location</a>
+					  <a class="dropdown-item" href="<?=BASE_URL?>about/staff">Staff</a>
+					  <a class="dropdown-item" href="<?=BASE_URL?>about/contact-us">Contact Us</a>
+					  <a class="dropdown-item" href="<?=BASE_URL?>about/confidentiality-policy">Confidentiality Policy</a>
+					  <a class="dropdown-item" href="<?=BASE_URL?>about/forms">Forms</a>
+					  <a class="dropdown-item" href="<?=BASE_URL?>about/outreach">Outreach</a>
+					  <a class="dropdown-item" href="<?=BASE_URL?>about/giving">Giving</a>
+					  <a class="dropdown-item" href="<?=BASE_URL?>about/graduate-training">Graduate Training</a>
 					  <a class="dropdown-item" target="_blank" href="https://students.vt.edu/">Student Affairs</a>
 				</div>
 			  </li>
@@ -81,12 +81,12 @@
 			  		Services
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			  		<a class="dropdown-item" href="<?=BASE_URL?>/services/emergency-services">Emergency Services</a>
-			  		<a class="dropdown-item" href="<?=BASE_URL?>/services/schedule-appointment">Schedule an Appointment</a>
-					  <a class="dropdown-item" href="<?=BASE_URL?>/services/individual-counseling">Individual Counseling</a>
-					  <a class="dropdown-item" href="<?=BASE_URL?>/services/group-counseling">Group Counseling</a>
-					  <a class="dropdown-item" href="<?=BASE_URL?>/services/psychiatric-services">Psychiatric Services</a>
-					  <a class="dropdown-item" href="<?=BASE_URL?>/services/sport-psychology">Sport Psychology</a>
+			  		<a class="dropdown-item" href="<?=BASE_URL?>services/emergency-services">Emergency Services</a>
+			  		<a class="dropdown-item" href="<?=BASE_URL?>services/schedule-appointment">Schedule an Appointment</a>
+					  <a class="dropdown-item" href="<?=BASE_URL?>services/individual-counseling">Individual Counseling</a>
+					  <a class="dropdown-item" href="<?=BASE_URL?>services/group-counseling">Group Counseling</a>
+					  <a class="dropdown-item" href="<?=BASE_URL?>services/psychiatric-services">Psychiatric Services</a>
+					  <a class="dropdown-item" href="<?=BASE_URL?>services/sport-psychology">Sport Psychology</a>
 				</div>
 			  </li>
 			  <li class="nav-item dropdown">
@@ -94,12 +94,12 @@
 			  		Self-Care
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			  		<a class="dropdown-item" href="<?=BASE_URL?>/self-care/alcoholism">Alcoholism</a>
-			  		<a class="dropdown-item" href="<?=BASE_URL?>/self-care/add">Attention Deficit Disorder (ADD)</a>
-					  <a class="dropdown-item" href="<?=BASE_URL?>/self-care/eating-disorders">Eating Disorders</a>
-					  <a class="dropdown-item" href="<?=BASE_URL?>/self-care/sexual-assault">Sexual Assault</a>
-					  <a class="dropdown-item" href="<?=BASE_URL?>/self-care/trauma">Trauma</a>
-					  <a class="dropdown-item" href="<?=BASE_URL?>/self-care/well-being">Well-Being at Virginia Tech</a>
+			  		<a class="dropdown-item" href="<?=BASE_URL?>self-care/alcoholism">Alcoholism</a>
+			  		<a class="dropdown-item" href="<?=BASE_URL?>self-care/add">Attention Deficit Disorder (ADD)</a>
+					  <a class="dropdown-item" href="<?=BASE_URL?>self-care/eating-disorders">Eating Disorders</a>
+					  <a class="dropdown-item" href="<?=BASE_URL?>self-care/sexual-assault">Sexual Assault</a>
+					  <a class="dropdown-item" href="<?=BASE_URL?>self-care/trauma">Trauma</a>
+					  <a class="dropdown-item" href="<?=BASE_URL?>self-care/well-being">Well-Being at Virginia Tech</a>
 				</div>
 		  	</li>
 		  </ul>
