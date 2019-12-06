@@ -14,7 +14,7 @@ RewriteRule ^about/contact-us$ app/controller/AboutController.php?route=contact-
 RewriteRule ^about/staff$ app/controller/AboutController.php?route=staff
 
 # About / About Cook Counseling Center
-RewriteRule ^about/about-cook$ app/controller/AboutController.php?route=about-cook
+RewriteRule ^about$ app/controller/AboutController.php?route=about-cook
 
 # About / Hours & Location
 RewriteRule ^about/hours-and-location$ app/controller/AboutController.php?route=hours-and-location
@@ -53,3 +53,23 @@ RewriteRule ^services/psychiatric-services$ app/controller/ServicesController.ph
 
 # Services / Sport Psychology
 RewriteRule ^services/sport-psychology$ app/controller/ServicesController.php?route=sport-psychology
+
+
+
+# Self Care / Alcoholism
+RewriteRule ^self-care/alocholism$ app/controller/ServicesController.php?route=alcoholism
+
+# Self Care / Atention Deficit Disorder
+RewriteRule ^self-care/add$ app/controller/ServicesController.php?route=add
+
+# Self Care / Eating Disorders
+RewriteRule ^self-care/eating-disorders$ app/controller/ServicesController.php?route=eating-disorders
+
+# Self Care / Sexual Assault
+RewriteRule ^self-care/sexual-assault$ app/controller/ServicesController.php?route=sexual-assault
+
+# Self Care / Trauma
+RewriteRule ^self-care/trauma$ app/controller/ServicesController.php?route=trauma
+
+# Self Care / Well Being
+RewriteRule ^self-care/well-being$ app/controller/ServicesController.php?route=well-being
