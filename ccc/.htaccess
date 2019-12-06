@@ -1,0 +1,9 @@
+Options -Indexes
+
+RewriteEngine on
+
+# Home
+RewriteRule ^$ app/controller/SiteController.php?route=home
+
+# About
+RewriteRule ^about/contact-us$ app/controller/SiteController.php?route=about-contact-us
