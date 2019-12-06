@@ -30,7 +30,7 @@ else if ($route == 'well-being') {
 }
 
 
-class SiteController {
+class SelfCareController {
 
 	/* --- Self Care / Alocholism --- */
 	public function alcoholism() {
