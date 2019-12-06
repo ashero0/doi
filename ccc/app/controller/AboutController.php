@@ -123,6 +123,7 @@ class AboutController {
         include_once SYSTEM_PATH.'/view/about/giving.php';
 		include_once SYSTEM_PATH.'/view/footer.php';
     }
+
     /*-- About / Graduate Training --- */
 	public function graduateTraining() {
 		$pageTitle = 'Graduate Training';
@@ -132,5 +133,6 @@ class AboutController {
         include_once SYSTEM_PATH.'/view/about/graduate-training.php';
 		include_once SYSTEM_PATH.'/view/footer.php';
     }
+    
     
 }
