@@ -6,4 +6,30 @@ RewriteEngine on
 RewriteRule ^$ app/controller/SiteController.php?route=home
 
 # About
-RewriteRule ^about/contact-us$ app/controller/SiteController.php?route=about-contact-us
+RewriteRule ^about/contact-us$ app/controller/AboutController.php?route=contact-us
+
+# About / Staff
+RewriteRule ^about/staff$ app/controller/AboutController.php?route=staff
+
+# About / About Cook Counseling Center
+RewriteRule ^about/about-cook$ app/controller/AboutController.php?route=about-cook
+
+# About / Hours & Location
+RewriteRule ^about/hours-and-location$ app/controller/AboutController.php?route=hours-and-location
+
+# About / Confidentiality Policy
+RewriteRule ^about/confidentiality-policy$ app/controller/AboutController.php?route=confidentiality-policy
+
+# About / Forms
+RewriteRule ^about/forms$ app/controller/AboutController.php?route=forms
+
+# About / Outreach
+RewriteRule ^about/outreach$ app/controller/AboutController.php?route=outreach
+
+# About / Giving
+RewriteRule ^about/giving$ app/controller/AboutController.php?route=giving
+
+# About / Graduate Training
+RewriteRule ^about/graduate-training$ app/controller/AboutController.php?route=graduate-training
+
+
