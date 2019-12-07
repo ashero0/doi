@@ -5,5 +5,29 @@
 }
 
 .page-content {
-	padding: 16px;
+    padding: 16px;
+    width: 75%;
+}
+
+.dropdown-submenu>#dropdownMenu2:after {
+	margin-top: 6px;
+    vertical-align: 0.255em;
+    content: "";
+    border-right: 0.3em solid transparent;
+    border-top: 0.3em solid transparent;
+    border-left: 0.3em solid;
+    border-bottom: 0.3em solid transparent;
+}
+
+#universal-access>.navbar {
+	height: 40px;
+}
+#universal-access>.navbar>.navbar-collapse {
+	flex-direction: row-reverse;
+}
+#universal-access .dropdown-menu {
+	left: -55px;
+
+h1 {
+    color:  #861F40;
 }
