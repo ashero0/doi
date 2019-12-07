@@ -69,13 +69,44 @@
 <body>
 
 	<div id="universal-access">
-		<nav class="navbar navbar-dark bg-dark">
-			<div class="container-fluid">
-				<ul class="nav navbar-nav navbar-right">
-					<!-- <li><img src="<?= BASE_URL ?>/public/assets/universalaccess.svg"></li> -->
-					<!-- <li>test</li> -->
-				</ul>
-			</div>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		    	<span class="navbar-toggler-icon"></span>
+		  	</button>
+		  	<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		  		<ul class="navbar-nav">
+		    		<li class="nav-item">
+		    			<a class="nav-link" href="#">
+		    				<img alt="VT Virginia Tech" style="height: 18px; margin-top: -4px;" src="http://www.assets.cms.vt.edu/images/accessibility_icon_white.svg">
+		    			</a>
+		    		</li>
+		    		<li class="nav-item">
+		    			<a class="nav-link" target="_blank" href="https://vt.edu/apply.html">APPLY</a>
+		    		</li>
+		    		<li class="nav-item">
+			        	<a class="nav-link" target="_blank" href="https://vt.edu/visit.html">VISIT</a>
+			    	</li>
+			    	<li class="nav-item">
+			    		<a class="nav-link" target="_blank" href="https://webapps.es.vt.edu/givingto/gift">GIVE</a>
+			    	</li>
+			    	<li class="nav-item">
+		        		<a class="nav-link" target="_blank" href="http://www.hokiegear.com/?_s=bm-storefront&utm_source=vt_edu&utm_medium=referral">SHOP</a>
+		      		</li>
+		      		<li class="nav-item dropdown">
+		        		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          			Resources for
+		        		</a>
+		        		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+				          	<a class="dropdown-item" target="_blank" href="https://vt.edu/admissions.html">Future Students</a>
+				          	<a class="dropdown-item" target="_blank" href="https://vt.edu/resources/current-students.html">Current Students</a>
+				          	<a class="dropdown-item" target="_blank" href="https://vt.edu/resources/parents-and-families.html">Parents and Families</a>
+				          	<a class="dropdown-item" target="_blank" href="https://vt.edu/resources/faculty-and-staff.html">Faculty and Staff</a>
+				          	<a class="dropdown-item" target="_blank" href="https://alumni.vt.edu/">Alumni</a>
+				          	<a class="dropdown-item" target="_blank" href="https://vt.edu/link.html">Industry and Partners</a>
+		        		</div>
+		      		</li>
+		    	</ul>
+		  	</div>
 		</nav>
 	</div>
 
