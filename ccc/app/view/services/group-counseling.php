@@ -21,8 +21,8 @@
     <div class="card">
         <div class="card-header" id="headingOne">
             <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
-                    aria-controls="collapseOne">
+                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseOne"
+                    aria-expanded="false" aria-controls="collapseOne">
                     Understanding Self and Others
                 </button>
             </h5>
@@ -41,8 +41,8 @@
     <div class="card">
         <div class="card-header" id="headingTwo">
             <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                    aria-controls="collapseTwo">
+                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
                     Substance Use Group
                 </button>
             </h5>
@@ -58,8 +58,8 @@
     <div class="card">
         <div class="card-header" id="headingThree">
             <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                    aria-controls="collapseThree">
+                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree">
                     DBT Skills Group
                 </button>
             </h5>
@@ -75,8 +75,8 @@
     <div class="card">
         <div class="card-header" id="headingFour">
             <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
-                    aria-controls="collapseFour">
+                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseFour"
+                    aria-expanded="false" aria-controls="collapseFour">
                     DBT Skills Group for Eating Disorders
                 </button>
             </h5>
@@ -92,8 +92,8 @@
     <div class="card">
         <div class="card-header" id="headingFive">
             <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
-                    aria-controls="collapseFive">
+                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseFive"
+                    aria-expanded="false" aria-controls="collapseFive">
                     Working Through Trauma
                 </button>
             </h5>
@@ -110,8 +110,8 @@
     <div class="card">
         <div class="card-header" id="headingSix">
             <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
-                    aria-controls="collapseSix">
+                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseSix"
+                    aria-expanded="false" aria-controls="collapseSix">
                     The Moose Group
                 </button>
             </h5>
@@ -128,8 +128,8 @@
     <div class="card">
         <div class="card-header" id="headingSeven">
             <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false"
-                    aria-controls="collapseSeven">
+                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseSeven"
+                    aria-expanded="false" aria-controls="collapseSeven">
                     Mindfulness for Anxiety
                 </button>
             </h5>
@@ -146,8 +146,8 @@
     <div class="card">
         <div class="card-header" id="headingEight">
             <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false"
-                    aria-controls="collapseEight">
+                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseEight"
+                    aria-expanded="false" aria-controls="collapseEight">
                     Grief Group
                 </button>
             </h5>
@@ -164,8 +164,8 @@
     <div class="card">
         <div class="card-header" id="headingNine">
             <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false"
-                    aria-controls="collapseNine">
+                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseNine"
+                    aria-expanded="false" aria-controls="collapseNine">
                     Body Movement Group
                 </button>
             </h5>
@@ -182,8 +182,8 @@
     <div class="card">
         <div class="card-header" id="headingTen">
             <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false"
-                    aria-controls="collapseTen">
+                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseTen"
+                    aria-expanded="false" aria-controls="collapseTen">
                     Social Skills Gaming Group
                 </button>
             </h5>
@@ -200,8 +200,8 @@
     <div class="card">
         <div class="card-header" id="headingEleven">
             <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false"
-                    aria-controls="collapseEleven">
+                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseEleven"
+                    aria-expanded="false" aria-controls="collapseEleven">
                     Expressive Arts with Wagner
                 </button>
             </h5>
@@ -218,8 +218,8 @@
     <div class="card">
         <div class="card-header" id="headingTwelve">
             <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false"
-                    aria-controls="collapseTwelve">
+                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseTwelve"
+                    aria-expanded="false" aria-controls="collapseTwelve">
                     Our Voice
                 </button>
             </h5>
@@ -250,4 +250,14 @@
         </div>
     </div>
 
+</div>
+<br>
+<h3>An Introduction to Group Counseling at Cook Counseling Center</h3>
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R00fTKCpWVg" allowfullscreen></iframe>
+</div>
+<br>
+<h3>Understanding Self and Others Group Counseling</h3>
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/c-rUDx8WNPg" allowfullscreen></iframe>
 </div>
