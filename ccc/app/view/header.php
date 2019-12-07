@@ -19,6 +19,38 @@
 		var base_url = '<?= BASE_URL ?>';
 	</script>
 
+	<!-- Code snippet below adapted from https://bootstrapious.com/p/bootstrap-multilevel-dropdown -->
+
+	<script type="text/javascript">//<![CDATA[
+
+	window.onload=function(){
+	
+	$(function() {
+	// ------------------------------------------------------- //
+	// Multi Level dropdowns
+	// ------------------------------------------------------ //
+	$("ul.dropdown-menu [data-toggle='dropdown']").on("click", function(event) {
+	event.preventDefault();
+	event.stopPropagation();
+
+	$(this).siblings().toggleClass("show");
+
+
+	if (!$(this).next().hasClass('show')) {
+	$(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+	}
+	$(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+	$('.dropdown-submenu .show').removeClass("show");
+	});
+
+	});
+	});
+
+
+	}
+
+	//]]></script>
+
 	<!-- <script src="<?= BASE_URL ?>/public/js/header.js"></script> -->
 
 	<?php if(isset($script)): ?>
@@ -101,38 +133,35 @@
 					  <a class="dropdown-item" href="<?=BASE_URL?>self-care/trauma">Trauma</a>
 					  <a class="dropdown-item" href="<?=BASE_URL?>self-care/well-being">Well-Being at Virginia Tech</a>
 				</div>
-		  	</li>
+			  </li>
+		
+		<li class="nav-item dropdown">
+          <a id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Academic Help</a>
+          <ul aria-labelledby="dropdownMenu1" class="dropdown-menu">
+            <li><a href="#" class="dropdown-item">Academic Relief</a></li>
+            <li><a href="#" class="dropdown-item">Online Workshops</a></li>
+
+            <li class="dropdown-submenu dropdown-toggle">
+              <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Study Skills</a>
+              <ul aria-labelledby="dropdownMenu2" class="dropdown-menu">
+			    <!-- border-0 shadow -->
+                <li><a tabindex="-1" href="#" class="dropdown-item">Checklist</a></li>
+				<li><a tabindex="-1" href="#" class="dropdown-item">Time Management</a></li>
+				<li><a tabindex="-1" href="#" class="dropdown-item">Environment</a></li>
+				<li><a tabindex="-1" href="#" class="dropdown-item">SQ3R - Improving Reading Comprehension</a></li>
+				<li><a tabindex="-1" href="#" class="dropdown-item">Concentration</a></li>
+				<li><a tabindex="-1" href="#" class="dropdown-item">Motivation</a></li>
+				<li><a tabindex="-1" href="#" class="dropdown-item">Note-Taking</a></li>
+				<li><a tabindex="-1" href="#" class="dropdown-item">Recall</a></li>
+				<li><a tabindex="-1" href="#" class="dropdown-item">Difficult Questions</a></li>
+				<li><a tabindex="-1" href="#" class="dropdown-item">Vocabulary</a></li>
+				<li><a tabindex="-1" href="#" class="dropdown-item">Writing Papers</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
 		  </ul>
 		</nav>
-		<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<a class="navbar-brand" href="#">Navbar</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-			<ul class="navbar-nav">
-			  <li class="nav-item active">
-				<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#">Features</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#">Pricing</a>
-			  </li>
-			  <li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				  Dropdown link
-				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-				  <a class="dropdown-item" href="#">Action</a>
-				  <a class="dropdown-item" href="#">Another action</a>
-				  <a class="dropdown-item" href="#">Something else here</a>
-				</div>
-			  </li>
-			</ul>
-		  </div>
-		</nav> -->
 	</div>
 
 	<div class="page-content">
