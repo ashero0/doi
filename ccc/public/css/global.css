@@ -7,3 +7,13 @@
 .page-content {
 	padding: 16px;
 }
+
+.dropdown-submenu>#dropdownMenu2:after {
+	margin-top: 6px;
+    vertical-align: 0.255em;
+    content: "";
+    border-right: 0.3em solid transparent;
+    border-top: 0.3em solid transparent;
+    border-left: 0.3em solid;
+    border-bottom: 0.3em solid transparent;
+}

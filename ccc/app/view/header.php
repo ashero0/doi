@@ -141,7 +141,7 @@
             <li><a href="#" class="dropdown-item">Academic Relief</a></li>
             <li><a href="#" class="dropdown-item">Online Workshops</a></li>
 
-            <li class="dropdown-submenu dropdown-toggle">
+            <li class="dropdown-submenu">
               <a id="dropdownMenu2" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle">Study Skills</a>
               <ul aria-labelledby="dropdownMenu2" class="dropdown-menu">
 			    <!-- border-0 shadow -->
