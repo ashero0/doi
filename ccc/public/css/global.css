@@ -5,7 +5,8 @@
 }
 
 .page-content {
-	padding: 16px;
+    padding: 16px;
+    width: 75%;
 }
 
 .dropdown-submenu>#dropdownMenu2:after {
@@ -26,4 +27,6 @@
 }
 #universal-access .dropdown-menu {
 	left: -55px;
-}
+
+h1 {
+    color:  #861F40;
