@@ -8,10 +8,6 @@ if ($route == 'academic-relief') {
 	// Academic Help / Academic Relief
 	$acc->academicRelief();
 }
-else if ($route == 'study-skills') {
-	// Academic Help / Study Skills
-	$acc->studySkills();
-}
 else if ($route == 'checklist') {
 	// Academic Help / Study Skills / Checklist
 	$acc->checklist();
@@ -28,7 +24,7 @@ else if ($route == 'sched-strat') {
 	// Academic Help / Study Skills / Time Management / Scheduling Strategies
 	$acc->schedStrat();
 }
-else if ($route == 'sched-strat') {
+else if ($route == 'sched-stud') {
 	// Academic Help / Study Skills / Time Management / Scheduled Strategies
 	$acc->schedStud();
 }
@@ -50,8 +46,51 @@ else if ($route == 'motivation') {
 }
 else if ($route == 'motivation-checklist') {
 	// Academic Help / Study Skills / Motivation / Motivation Checklist
-	// this is not going to the right page!!! going to motivation page instead of motivation checklist page
 	$acc->motChecklist();
+}
+else if ($route == 'note-taking') {
+	// Academic Help / Study Skills / Note-Taking
+	$acc->noteTaking();
+}
+else if ($route == 'lecture-notes') {
+	// Academic Help / Study Skills / Note-Taking / Editing Lecture Notes
+	$acc->lectureNotes();
+}
+else if ($route == 'recall') {
+	// Academic Help / Study Skills / Recall
+	$acc->recall();
+}
+else if ($route == 'diff-questions') {
+	// Academic Help / Study Skills / Difficult Questions
+	$acc->diffQuestions();
+}
+else if ($route == 'vocab') {
+	// Academic Help / Study Skills / Vocabulary
+	$acc->vocab();
+}
+else if ($route == 'writing-papers') {
+	// Academic Help / Study Skills / Writing Papers
+	$acc->writingPapers();
+}
+else if ($route == 'online-workshops') {
+	// Academic Help / Online Workshops
+	$acc->onlineWorkshops();
+}
+else if ($route == 'time-workshop') {
+	// Academic Help / Online Workshops / Time Management Strategies Workshop
+	$acc->timeWorkshop();
+}
+else if ($route == 'test-workshop') {
+	// Academic Help / Online Workshops / Improving Test Performance Workshop
+	$acc->testWorkshop();
+}
+else if ($route == 'sq3r-workshop') {
+	// Academic Help / Online Workshops / SQ3R Improving Reading Comprehension Workshop
+	$acc->sq3rWorkshop();
+}
+else if ($route == 'concentration-workshop') {
+	// Academic Help / Online Workshops / Improving Concentration/Memory Workshop
+	$acc->concentrationWorkshop();
 }
 
 class AcademicController {
@@ -63,15 +102,6 @@ class AcademicController {
 
 		include_once SYSTEM_PATH.'/view/header.php';
 		include_once SYSTEM_PATH.'/view/academic-help/academic-relief.php';
-		include_once SYSTEM_PATH.'/view/footer.php';
-    }
-    /* --- Academic Help / Study Skills --- */
-	public function studySkills() {
-		$pageTitle = 'Study Skills';
-		// $stylesheet = '';
-
-		include_once SYSTEM_PATH.'/view/header.php';
-		include_once SYSTEM_PATH.'/view/academic-help/study-skills.php';
 		include_once SYSTEM_PATH.'/view/footer.php';
     }
     /* --- Academic Help / Study Skills / Checklist --- */
@@ -162,6 +192,105 @@ class AcademicController {
 
 		include_once SYSTEM_PATH.'/view/header.php';
 		include_once SYSTEM_PATH.'/view/academic-help/motsub-checklist.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+	}
+	/* --- Academic Help / Study Skills / Motivation / Motivation Checklist --- */
+	public function noteTaking() {
+		$pageTitle = 'Note-Taking';
+		// $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+		include_once SYSTEM_PATH.'/view/academic-help/note-taking.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+	}
+	/* --- Academic Help / Study Skills / Note-Taking / Editing Lecture Notes --- */
+	public function lectureNotes() {
+		$pageTitle = 'Lecture Notes';
+		// $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+		include_once SYSTEM_PATH.'/view/academic-help/ntsub-lecture-notes.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+	}
+	/* --- Academic Help / Study Skills / Recall --- */
+	public function recall() {
+		$pageTitle = 'Recall';
+		// $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+		include_once SYSTEM_PATH.'/view/academic-help/recall.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+	}
+	/* --- Academic Help / Study Skills / Difficult Questions --- */
+	public function diffQuestions() {
+		$pageTitle = 'Difficult Questions';
+		// $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+		include_once SYSTEM_PATH.'/view/academic-help/diff-questions.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+	}
+	/* --- Academic Help / Study Skills / Difficult Questions --- */
+	public function vocab() {
+		$pageTitle = 'Vocabulary';
+		// $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+		include_once SYSTEM_PATH.'/view/academic-help/vocab.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+	}
+	/* --- Academic Help / Study Skills / Writing Papers --- */
+	public function writingPapers() {
+		$pageTitle = 'Writing Papers';
+		// $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+		include_once SYSTEM_PATH.'/view/academic-help/writing-papers.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+	}
+	/* --- Academic Help / Online Workshops --- */
+	public function onlineWorkshops() {
+		$pageTitle = 'Online Workshops';
+		// $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+		include_once SYSTEM_PATH.'/view/academic-help/online-workshops.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+	}
+	/* --- Academic Help / Online Workshops / Time Management Strategies--- */
+	public function timeWorkshop() {
+		$pageTitle = 'Time Management Strategies Workshop';
+		// $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+		include_once SYSTEM_PATH.'/view/academic-help/owsub-time.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+	}
+	/* --- Academic Help / Online Workshops / Improving Test Performance--- */
+	public function testWorkshop() {
+		$pageTitle = 'Improving Test Performance Workshop';
+		// $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+		include_once SYSTEM_PATH.'/view/academic-help/owsub-test-perf.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+	}
+	/* --- Academic Help / Online Workshops / SQ3R Improving Reading Comprehension --- */
+	public function sq3rWorkshop() {
+		$pageTitle = 'SQ3R Improving Reading Comprehension Workshop';
+		// $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+		include_once SYSTEM_PATH.'/view/academic-help/owsub-sq3r.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+	}
+	/* --- Academic Help / Online Workshops / Improving Concentration/Memory --- */
+	public function concentrationWorkshop() {
+		$pageTitle = 'Improving Concentration/Memory Workshop';
+		// $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+		include_once SYSTEM_PATH.'/view/academic-help/owsub-concentration.php';
 		include_once SYSTEM_PATH.'/view/footer.php';
 	}
 }

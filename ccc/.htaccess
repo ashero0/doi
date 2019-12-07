@@ -79,9 +79,6 @@ RewriteRule ^self-care/well-being$ app/controller/SelfCareController.php?route=w
 # Academic Help / Academic Relief
 RewriteRule ^academic-help/academic-relief$ app/controller/AcademicController.php?route=academic-relief
 
-# Academic Help / Study Skills
-RewriteRule ^academic-help/study-skills$ app/controller/AcademicController.php?route=study-skills
-
 # Academic Help / Study Skills / Checklist
 RewriteRule ^academic-help/study-skills/checklist$ app/controller/AcademicController.php?route=checklist
 
@@ -104,10 +101,42 @@ RewriteRule ^academic-help/study-skills/environment$ app/controller/AcademicCont
 RewriteRule ^academic-help/study-skills/sq3r$ app/controller/AcademicController.php?route=sq3r
 
 # Academic Help / Study Skills / Concentration
-RewriteRule ^academic-help/study-skills/concentration app/controller/AcademicController.php?route=concentration
+RewriteRule ^academic-help/study-skills/concentration$ app/controller/AcademicController.php?route=concentration
 
 # Academic Help / Study Skills / Motivation
-RewriteRule ^academic-help/study-skills/motivation app/controller/AcademicController.php?route=motivation
+RewriteRule ^academic-help/study-skills/motivation$ app/controller/AcademicController.php?route=motivation
 
 # Academic Help / Study Skills / Motivation / Motivation Checklist
-RewriteRule ^academic-help/study-skills/motivation/motivation-checklist app/controller/AcademicController.php?route=motivation-checklist
+RewriteRule ^academic-help/study-skills/motivation/motivation-checklist$ app/controller/AcademicController.php?route=motivation-checklist
+
+# Academic Help / Study Skills / Note-Taking
+RewriteRule ^academic-help/study-skills/note-taking$ app/controller/AcademicController.php?route=note-taking
+
+# Academic Help / Study Skills / Note-Taking / Editing Lecture Notes
+RewriteRule ^academic-help/study-skills/note-taking/lecture-notes$ app/controller/AcademicController.php?route=lecture-notes
+
+# Academic Help / Study Skills / Recall
+RewriteRule ^academic-help/study-skills/recall$ app/controller/AcademicController.php?route=recall
+
+# Academic Help / Study Skills / Vocabulary
+RewriteRule ^academic-help/study-skills/vocab$ app/controller/AcademicController.php?route=vocab
+
+# Academic Help / Study Skills / Writing Papers
+RewriteRule ^academic-help/study-skills/writing-papers$ app/controller/AcademicController.php?route=writing-papers
+
+# Academic Help / Online Workshops
+RewriteRule ^academic-help/online-workshops$ app/controller/AcademicController.php?route=online-workshops
+
+# Academic Help / Online Workshops / Time Management Strategies Workshop
+RewriteRule ^academic-help/online-workshops/time-management$ app/controller/AcademicController.php?route=time-workshop
+
+# Academic Help / Online Workshops / Improving Test Performance Workshop
+RewriteRule ^academic-help/online-workshops/test-performance$ app/controller/AcademicController.php?route=test-workshop
+
+# Academic Help / Online Workshops / SQ3R Improving Reading Comprehension Workshop
+RewriteRule ^academic-help/online-workshops/sq3r$ app/controller/AcademicController.php?route=sq3r-workshop
+
+# Academic Help / Online Workshops / Improving Concentration/Memory
+RewriteRule ^academic-help/online-workshops/concentration-memory$ app/controller/AcademicController.php?route=concentration-workshop
+
+
