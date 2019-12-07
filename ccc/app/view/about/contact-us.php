@@ -17,17 +17,17 @@
 		</h3>
 		<ul>
 			<li>
-				<a href="http://www.nrvcs.org/access-services/">ACCESS</a> - Emergency services clinicians are available to meet with you at your location. A friend or family member
+				<a href="http://www.nrvcs.org/access-services/" target="_blank">ACCESS</a> - Emergency services clinicians are available to meet with you at your location. A friend or family member
 				can call for you if you feel that you are unable to do so yourself. Call 540-961-8400.</li>
 			<li>
-				<a href="https://www.carilionclinic.org/connect">CONNECT</a> - A 24-hour referral and emergency evaluation service of Carillion Health Care. Call 1-800-284-8898 or 540-731-7385.</li>
+				<a href="https://www.carilionclinic.org/connect" target="_blank">CONNECT</a> - A 24-hour referral and emergency evaluation service of Carillion Health Care. Call 1-800-284-8898 or 540-731-7385.</li>
 			<li>
-				<a href="https://lewisgale.com/medical-professionals/for-providers/referring-a-patient.dot">RESPOND</a> - A mental health admittance and referral service of Montgomery Regional Hospital and Lewis Gale Hospital.
+				<a href="https://lewisgale.com/medical-professionals/for-providers/referring-a-patient.dot" target="_blank">RESPOND</a> - A mental health admittance and referral service of Montgomery Regional Hospital and Lewis Gale Hospital.
 				Call 540-953-5324.</li>
 			<li>
-				<a href="https://www.police.vt.edu/index.html">Virginia Tech Police</a> – 911 if on campus or 540-231-6411</li>
+				<a href="https://www.police.vt.edu/index.html" target="_blank">Virginia Tech Police</a> – 911 if on campus or 540-231-6411</li>
 			<li>
-				<a href="http://www.blacksburg.gov/departments/departments-l-z/police">Blacksburg Police</a> – 911 if off campus in Blacksburg or 540-961-1150</li>
+				<a href="http://www.blacksburg.gov/departments/departments-l-z/police" target="_blank">Blacksburg Police</a> – 911 if off campus in Blacksburg or 540-961-1150</li>
 		</ul>
 	</div>
 
