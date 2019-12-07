@@ -29,7 +29,7 @@ else if ($route == 'sport-psychology') {
 	$servc->sportPsychology();
 }
 
-class SiteController {
+class ServicesController {
 
 	/* --- Services / Emergency Services --- */
 	public function emergencyServices() {
@@ -57,7 +57,7 @@ class SiteController {
 		// $stylesheet = '';
 
 		include_once SYSTEM_PATH.'/view/header.php';
-		include_once SYSTEM_PATH.'/view/services/individual-counsleing.php';
+		include_once SYSTEM_PATH.'/view/services/individual-counseling.php';
 		include_once SYSTEM_PATH.'/view/footer.php';
     }
     
@@ -67,7 +67,7 @@ class SiteController {
 		// $stylesheet = '';
 
 		include_once SYSTEM_PATH.'/view/header.php';
-		include_once SYSTEM_PATH.'/view/services/group-counsleing.php';
+		include_once SYSTEM_PATH.'/view/services/group-counseling.php';
 		include_once SYSTEM_PATH.'/view/footer.php';
     }
     

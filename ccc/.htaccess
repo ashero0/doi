@@ -14,7 +14,7 @@ RewriteRule ^about/contact-us$ app/controller/AboutController.php?route=contact-
 RewriteRule ^about/staff$ app/controller/AboutController.php?route=staff
 
 # About / About Cook Counseling Center
-RewriteRule ^about$ app/controller/AboutController.php?route=about-cook
+RewriteRule ^about/about-cook$ app/controller/AboutController.php?route=about-cook
 
 # About / Hours & Location
 RewriteRule ^about/hours-and-location$ app/controller/AboutController.php?route=hours-and-location
@@ -57,19 +57,57 @@ RewriteRule ^services/sport-psychology$ app/controller/ServicesController.php?ro
 
 
 # Self Care / Alcoholism
-RewriteRule ^self-care/alocholism$ app/controller/ServicesController.php?route=alcoholism
+RewriteRule ^self-care/alcoholism$ app/controller/SelfCareController.php?route=alcoholism
 
 # Self Care / Atention Deficit Disorder
-RewriteRule ^self-care/add$ app/controller/ServicesController.php?route=add
+RewriteRule ^self-care/add$ app/controller/SelfCareController.php?route=add
 
 # Self Care / Eating Disorders
-RewriteRule ^self-care/eating-disorders$ app/controller/ServicesController.php?route=eating-disorders
+RewriteRule ^self-care/eating-disorders$ app/controller/SelfCareController.php?route=eating-disorders
 
 # Self Care / Sexual Assault
-RewriteRule ^self-care/sexual-assault$ app/controller/ServicesController.php?route=sexual-assault
+RewriteRule ^self-care/sexual-assault$ app/controller/SelfCareController.php?route=sexual-assault
 
 # Self Care / Trauma
-RewriteRule ^self-care/trauma$ app/controller/ServicesController.php?route=trauma
+RewriteRule ^self-care/trauma$ app/controller/SelfCareController.php?route=trauma
 
 # Self Care / Well Being
-RewriteRule ^self-care/well-being$ app/controller/ServicesController.php?route=well-being
+RewriteRule ^self-care/well-being$ app/controller/SelfCareController.php?route=well-being
+
+
+
+# Academic Help / Academic Relief
+RewriteRule ^academic-help/academic-relief$ app/controller/AcademicController.php?route=academic-relief
+
+# Academic Help / Study Skills
+RewriteRule ^academic-help/study-skills$ app/controller/AcademicController.php?route=study-skills
+
+# Academic Help / Study Skills / Checklist
+RewriteRule ^academic-help/study-skills/checklist$ app/controller/AcademicController.php?route=checklist
+
+# Academic Help / Study Skills / Time Management
+RewriteRule ^academic-help/study-skills/time-management$ app/controller/AcademicController.php?route=time-management
+
+# Academic Help / Study Skills / Time Management / Where Does Time Go
+RewriteRule ^academic-help/study-skills/time-management/where-does-time-go$ app/controller/AcademicController.php?route=where-time
+
+# Academic Help / Study Skills / Time Management / Scheduling Strategies
+RewriteRule ^academic-help/study-skills/time-management/scheduling-strategies$ app/controller/AcademicController.php?route=sched-strat
+
+# Academic Help / Study Skills / Time Management / Scheduled Studying
+RewriteRule ^academic-help/study-skills/time-management/scheduled-studying$ app/controller/AcademicController.php?route=sched-stud
+
+# Academic Help / Study Skills / Environment
+RewriteRule ^academic-help/study-skills/environment$ app/controller/AcademicController.php?route=environment
+
+# Academic Help / Study Skills / SQ3R Improving Reading Comprehension
+RewriteRule ^academic-help/study-skills/sq3r$ app/controller/AcademicController.php?route=sq3r
+
+# Academic Help / Study Skills / Concentration
+RewriteRule ^academic-help/study-skills/concentration app/controller/AcademicController.php?route=concentration
+
+# Academic Help / Study Skills / Motivation
+RewriteRule ^academic-help/study-skills/motivation app/controller/AcademicController.php?route=motivation
+
+# Academic Help / Study Skills / Motivation / Motivation Checklist
+RewriteRule ^academic-help/study-skills/motivation/motivation-checklist app/controller/AcademicController.php?route=motivation-checklist
