@@ -91,6 +91,46 @@ html {
     margin-left: 0px;
 }
 
+.vt-map-image {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.vt-footer-logo {
+    display: block;
+    position: relative;
+    margin-bottom: 1em;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* svg:not(:root).svg-inline--fa {
+    overflow: visible;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: .875em;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+} */
+
+.vt-remember {
+    display: inline-block;
+    vertical-align: text-bottom;
+    line-height: 2em;
+    position: relative;
+    width: .8em;
+    height: 1.5em;
+    margin-right: .5em;
+}
+
 @-ms-viewport {
     width: device-width;
 }
