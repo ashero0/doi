@@ -5,7 +5,8 @@
 }
 
 .page-content {
-	padding: 16px;
+    padding: 16px;
+    width: 75%;
 }
 
 .dropdown-submenu>#dropdownMenu2:after {
@@ -16,4 +17,8 @@
     border-top: 0.3em solid transparent;
     border-left: 0.3em solid;
     border-bottom: 0.3em solid transparent;
+}
+
+h1 {
+    color:  #861F40;
 }
