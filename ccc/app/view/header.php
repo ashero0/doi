@@ -59,6 +59,9 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="<?= BASE_URL ?>/public/css/custom.css">
+
+	<!-- Import Font Awesome Icons -->
+	<script src="https://kit.fontawesome.com/587f22926a.js" crossorigin="anonymous"></script>
 	
 	<!-- Import styles. -->
 	<?php if(isset($stylesheet)): ?>
@@ -120,8 +123,23 @@
 	<!-- Header -->
 	<div id="header">
 		<nav class="navbar navbar-light bg-light">
-			<a class="navbar-brand" href="<?=BASE_URL?>">
-				Cook Counseling Center
+			<a href="https://vt.edu/" class="vt-logo navbar-link">
+				<img src="<?=BASE_URL?>/public/assets/vt-logo.png" />
+			</a>
+			<a href="<?=BASE_URL?>" class="ccc-logo navbar-link">
+				<img src="<?=BASE_URL?>/public/assets/ccc-logo.png" />
+			</a>
+			<a href="<?=BASE_URL?>" class="navigation-link navbar-link">
+				<i class="fas fa-exclamation-circle"></i>
+				<p>Emergencies</p>
+			</a>
+			<a href="<?=BASE_URL?>/services/schedule-appointment" class="navigation-link navbar-link">
+				<i class="fas fa-calendar"></i>
+				<p>Appointments</p>
+			</a>
+			<a href="<?=BASE_URL?>" class="navigation-link navbar-link">
+				<i class="fas fa-phone"></i>
+				<p>Contact Us</p>
 			</a>
 		</nav>
 	</div>
