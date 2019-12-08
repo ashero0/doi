@@ -9,8 +9,8 @@ session_start();
 date_default_timezone_set('UTC');
 
 // Connect to database.
-// $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_DBNAME)
-//   or die ('Error: '.$conn->connect_error);
+$conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_DBNAME)
+  or die ('Error: '.$conn->connect_error);
 
 // Automatically load classes.
 spl_autoload_register(function($class_name) {
