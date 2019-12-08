@@ -5,6 +5,8 @@ $(document).ready(function () {
         validateInput();
         // textIsInappropriate(this); // form validation
     });
+
+    flatpickr("#datepicker", {});
 });
 
 function validateInput() {
