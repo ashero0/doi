@@ -1,4 +1,12 @@
-<h1>Emergency Services</h1>
+<div class="row">
+    <div class="col-md-8">
+        <h1>Emergency Services</h1>
+    </div>
+    <div class="col-md-4">
+        <div class="btn btn-static" style="background-color: #f26621;">CALL US: 540-231-6557</div>
+    </div>
+</div>
+
 <h3><i>Worried about Self-Harm or Suicidality?</i></h3>
 <p>If you are concerned about yourself or any Virginia Tech student being (or becoming) suicidal,
     please call the Cook Counseling Center at 540-231-6557 or one of the other resources listed below. The Cook
