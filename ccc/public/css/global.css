@@ -31,3 +31,8 @@
 h1 {
     color:  #861F40;
 }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
