@@ -50,6 +50,7 @@ class SelfCareController {
 		include_once SYSTEM_PATH.'/view/header.php';
 		include_once SYSTEM_PATH.'/view/self-care/add.php';
 		include_once SYSTEM_PATH.'/view/footer.php';
+
     }
 
     /* --- Self Care / Eating Disorders --- */
