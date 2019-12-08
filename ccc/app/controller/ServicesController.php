@@ -46,6 +46,10 @@ class ServicesController {
 		$pageTitle = 'Schedule an Appointment';
 		// $stylesheet = '';
 
+		$counselors = Counselor::loadAllCounselors();
+		$closedDates = ClosedDate::loadAllDates();
+		$appointments = Appointment::loadAllAppointments();
+
 		include_once SYSTEM_PATH.'/view/header.php';
 		include_once SYSTEM_PATH.'/view/services/schedule-appointment.php';
 		include_once SYSTEM_PATH.'/view/footer.php';
