@@ -162,7 +162,7 @@
 						<a class="dropdown-item" href="<?=BASE_URL?>about/confidentiality-policy">Confidentiality Policy</a>
 						<a class="dropdown-item" href="<?=BASE_URL?>about/forms">Forms</a>
 						<a class="dropdown-item" href="<?=BASE_URL?>about/outreach">Outreach</a>
-						<a class="dropdown-item" href="<?=BASE_URL?>about/giving">Giving</a>
+						<a class="dropdown-item" target="_blank" href="https://students.vt.edu/advancement/giving.html">Giving</a>
 						<a class="dropdown-item" href="<?=BASE_URL?>about/graduate-training">Graduate Training</a>
 						<a class="dropdown-item" target="_blank" href="https://students.vt.edu/">Student Affairs</a>
 					</div>
