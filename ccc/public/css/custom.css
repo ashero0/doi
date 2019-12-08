@@ -96,13 +96,12 @@ html {
     width: 100%;
 }
 
-.vt-footer-logo {
+/* .vt-footer-logo {
     display: block;
     position: relative;
     margin-bottom: 1em;
-    width: 100%;
     max-width: 100%;
-}
+} */
 
 /* svg:not(:root).svg-inline--fa {
     overflow: visible;

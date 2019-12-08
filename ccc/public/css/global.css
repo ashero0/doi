@@ -71,10 +71,16 @@ h1 {
     color:  #861F40;
 }
 
+<<<<<<< HEAD
+.footer {
+    position: absolute;
+    bottom: 0;
+=======
 .input-width {
     width: 500px;
 }
 
 .hidden-display {
     display: none;
+>>>>>>> f12a834e19b659cfcf9f7ef5a53de5c9c5352632
 }
