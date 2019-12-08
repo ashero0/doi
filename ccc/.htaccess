@@ -42,11 +42,17 @@ RewriteRule ^services/emergency-services$ app/controller/ServicesController.php?
 # Services / Schedule an Appointment
 RewriteRule ^services/schedule-appointment$ app/controller/ServicesController.php?route=schedule-appointment
 
+# Services / Process Appointment Schedule
+RewriteRule ^services/schedule-appointment/process$ app/controller/ServicesController.php?route=schedule-appointment-process
+
 # Services / Individual Counseling
 RewriteRule ^services/individual-counseling$ app/controller/ServicesController.php?route=individual-counseling
 
 # Services / Group Counseling
 RewriteRule ^services/group-counseling$ app/controller/ServicesController.php?route=group-counseling
+
+# Services / Group Counseling / List of Group Counseling Programs
+RewriteRule ^services/group-counseling/group-list$ app/controller/ServicesController.php?route=group-list
 
 # Services / Psychiatric Services
 RewriteRule ^services/psychiatric-services$ app/controller/ServicesController.php?route=psychiatric-services

@@ -1,5 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
+.vt-logo>img {
+	padding: 12px 16px 12px 0;
+	border-right: 3px solid #F26621;
+}
+
+.vt-logo>img, .ccc-logo>img {
+	height: 75px;
+}
+
+.ccc-logo {
+	padding: 4px;
+	padding-left: 16px;
+	height: 75px;
+	flex-grow: 2;
+}
+
+.navigation-link {
+	padding: 4px;
+	display: flex;
+}
+
+.navigation-link:hover {
+	text-decoration: none;
+}
+
+.navigation-link>i {
+	padding: 4px 8px 4px 20px;
+}
+
+.navigation-link>p {
+	margin: 0;
+}
+
 #navigation {
 	margin-bottom: 16px;
 }
@@ -19,6 +52,11 @@
     border-bottom: 0.3em solid transparent;
 }
 
+.accordion-button {
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
 #universal-access>.navbar {
 	height: 40px;
 }
@@ -27,12 +65,22 @@
 }
 #universal-access .dropdown-menu {
 	left: -55px;
+}
 
 h1 {
     color:  #861F40;
 }
 
+<<<<<<< HEAD
 .footer {
     position: absolute;
     bottom: 0;
+=======
+.input-width {
+    width: 500px;
+}
+
+.hidden-display {
+    display: none;
+>>>>>>> f12a834e19b659cfcf9f7ef5a53de5c9c5352632
 }

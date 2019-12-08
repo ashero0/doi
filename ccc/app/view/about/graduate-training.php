@@ -1,4 +1,2 @@
-<a href="<?=BASE_URL?>">
-	<p>go back</p>
-</a>
-<p>graduate training</p>
+<h1>Graduate Training</h1>
+<p>In keeping with the educational mission of the university, Cook Counseling Center is committed to the practical training of mental health professionals as they complete their academic programs and pursue professional licensure. The experiences provided at Cook Counseling Center are intended to provide the graduate student with skills and knowledge relevant to generalist clinical practice, with specialty expertise in working with a college population. Below is a list of Graduate training available through Cook Counseling Center:</p>

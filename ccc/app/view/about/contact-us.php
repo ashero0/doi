@@ -1,6 +1,6 @@
 <h1>Contact Us</h1>
 <div class="row">
-	<div class="col-md-6">
+	<div class="col-md-8">
 		<h3>
 			<i>Phone number: 540-231-6557</i>
 		</h3>
@@ -31,7 +31,7 @@
 		</ul>
 	</div>
 
-	<div class="col-md-6">
+	<div class="col-md-4">
 		<h3>
 			<i>Main Office:</i>
 		</h3>

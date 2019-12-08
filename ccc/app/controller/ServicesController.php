@@ -12,6 +12,10 @@ else if ($route == 'schedule-appointment') {
 	// Services / Schedule an Appointment
 	$servc->scheduleAppointment();
 }
+else if ($route == 'schedule-appointment-process') {
+	// Process Schedule Appointmnent
+	$servc->scheduleAppointmentProcess();
+}
 else if ($route == 'individual-counseling') {
 	// Services / Individual Counseling
 	$servc->individualCounseling();
@@ -19,6 +23,10 @@ else if ($route == 'individual-counseling') {
 else if ($route == 'group-counseling') {
 	// Services / Group Counseling
 	$servc->groupCounseling();
+}
+else if ($route == 'group-list') {
+	// Services / Group Counseling / List of Group Counseling Programs
+	$servc->groupList();
 }
 else if ($route == 'psychiatric-services') {
 	// Services / Psychiatric Services
@@ -44,11 +52,49 @@ class ServicesController {
     /* --- Services / Schedule an Appointment --- */
 	public function scheduleAppointment() {
 		$pageTitle = 'Schedule an Appointment';
+		$script = 'appointments';
 		// $stylesheet = '';
+
+		$counselors = Counselor::loadAllCounselors();
+		$closedDates = ClosedDate::loadAllDates();
+		$appointments = Appointment::loadAllAppointments();
 
 		include_once SYSTEM_PATH.'/view/header.php';
 		include_once SYSTEM_PATH.'/view/services/schedule-appointment.php';
 		include_once SYSTEM_PATH.'/view/footer.php';
+    }
+
+    /* --- Services / Schedule and Appointment --- */
+    public function scheduleAppointmentProcess() {
+    	// Get form data.
+  		// public $id;
+		// public $counselor_id;
+		// public $student_id;
+		// public $date_time;
+		// public $notes;
+    	$counselor_id = $_POST['counselor_id'];
+    	$student_id = $_POST['student_id'];
+    	$date_time = $_POST['date_time'];
+    	$notes = $_POST['notes'];
+
+    	// Create new appointment using form data.
+    	$appt = new Appointment();
+    	$appt->counselor_id = $counselor_id;
+    	$appt->student_id = $student_id;
+    	$appt->date_time = $date_time;
+    	$appt->notes = $notes;
+
+    	// Send query to save new appt to database.
+    	$appt = Appointment::insertAppointment($appt);
+
+    	if ($appt) {
+    		header('Location: '.BASE_URL); exit();
+    		echo 'Appointment created successfully.';
+    	}
+    	else {
+    		header('Location: '.BASE_URL.'/services/schedule-appointment');
+    		echo 'Error scheduling appointment.';
+    	}
     }
     
     /* --- Services / Individual Counseling --- */
@@ -69,7 +115,17 @@ class ServicesController {
 		include_once SYSTEM_PATH.'/view/header.php';
 		include_once SYSTEM_PATH.'/view/services/group-counseling.php';
 		include_once SYSTEM_PATH.'/view/footer.php';
-    }
+	}
+	
+	/* --- Services / Group Counseling / List of Group Counseling Programs--- */
+	public function groupList() {
+		$pageTitle = 'List of Group Counseling Programs';
+		// $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+		include_once SYSTEM_PATH.'/view/services/gcsub-list.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+	}
     
     /* --- Services / Psychiatric Services --- */
 	public function psychiatricServices() {
