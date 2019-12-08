@@ -52,6 +52,7 @@ class ServicesController {
     /* --- Services / Schedule an Appointment --- */
 	public function scheduleAppointment() {
 		$pageTitle = 'Schedule an Appointment';
+		$script = 'appointments';
 		// $stylesheet = '';
 
 		$counselors = Counselor::loadAllCounselors();
