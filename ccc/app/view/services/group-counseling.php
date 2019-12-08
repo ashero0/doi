@@ -16,6 +16,11 @@
     are typically 5-12 students in each group and 1-2 group leaders.
 
     Check out our videos and the links below for more information about our group program. </p>
+<div class="col text-center">
+    <a href="<?=BASE_URL?>services/group-counseling/group-list" class="btn btn-primary btn-lg">List of Group
+        Counseling Programs</a>
+</div>
+<br>
 
 <div id="accordion">
     <div class="card">
@@ -23,17 +28,22 @@
             <h5 class="mb-0">
                 <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseOne"
                     aria-expanded="false" aria-controls="collapseOne">
-                    Understanding Self and Others
+                    Why does group counseling work?
                 </button>
             </h5>
         </div>
         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
             <div class="card-body">
-                This group is for students who wish to increase self-understanding, self-esteem, and intimacy in
-                relationships, as well as addressing their interpersonal style and relationship-building skills. This is
-                an opportunity to receive support and feedback from other students in a safe environment while
-                developing your ability to understand and express yourself. Both undergraduate and graduate groups are
-                available
+                <p>When people come into a group and interact freely with one another, they usually recreate those
+                    difficulties that brought them to group counseling in the first place. Under the skilled direction
+                    of a group counselor, the group is able to give support, offer alternatives, or gently confront each
+                    other. In this way, the difficulty becomes resolved, alternative behaviors are learned, and everyone
+                    develops new social techniques or ways of relating to people.</p>
+
+                <p>During group counseling, people begin to see that they are not alone. Many people feel that they are
+                    different because of their problems and it is encouraging to hear that other people have similar
+                    difficulties. In the climate of trust provided by the group, people feel free to care about and help
+                    each other.</p>
             </div>
         </div>
     </div>
@@ -43,14 +53,23 @@
             <h5 class="mb-0">
                 <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="false" aria-controls="collapseTwo">
-                    Substance Use Group
+                    What do I talk about in group counseling?
                 </button>
             </h5>
         </div>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
-                This group is for students who have concerns about their substance use behaviors. Students are
-                encouraged to set personal goals for their use based on the stages of change model.
+                <p>You can talk about whatever you feel most comfortable disclosing. You may benefit most if you talk
+                    about what brought you to the counseling center in the first place. Tell the group members what is
+                    bothering you and if you need support let the group know. If you think you need confrontation, let
+                    the group know this also – it is important to tell people what you expect of them.</p>
+
+                <p>Unexpressed feelings are a major reason why people experience difficulties in their lives and
+                    interactions with others. Revealing your feelings – self-disclosure – is an important part of group
+                    counseling and affects how much you will be helped. The appropriate disclosures will be those that
+                    relate directly to your present difficulty. How much you talk about yourself is depends on how
+                    comfortable you are. If you have any questions about what might or might not be helpful, you can
+                    always ask the group.</p>
             </div>
         </div>
     </div>
@@ -60,204 +79,78 @@
             <h5 class="mb-0">
                 <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseThree"
                     aria-expanded="false" aria-controls="collapseThree">
-                    DBT Skills Group
+                    Common misconceptions about group counseling
                 </button>
             </h5>
         </div>
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
-                This group is a psychoeducation group based upon Dialectical Behavioral Therapy. It teaches skills in
-                Mindfulness, Distress Tolerance, Emotion Regulation, and Interpersonal Effectiveness.
-            </div>
-        </div>
-    </div>
+                <p class="font-weight-bold">“I will be forced to tell all of my deepest thoughts, feelings and secrets
+                    to the group.”</p>
 
-    <div class="card">
-        <div class="card-header" id="headingFour">
-            <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseFour"
-                    aria-expanded="false" aria-controls="collapseFour">
-                    DBT Skills Group for Eating Disorders
-                </button>
-            </h5>
-        </div>
-        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-            <div class="card-body">
-                This group is structured to help those who struggle with eating issues learn effective coping skills in
-                order to reduce suffering and improve self-acceptance and general life satisfaction.
-            </div>
-        </div>
-    </div>
+                You control what, how much, and when you share with the group. Most people find that they feel safe
+                enough to share what is troubling them – a group can be very helpful and affirming. We encourage you not
+                to share what you are not ready to disclose. Listening to others will also help, as some of what they
+                say might also apply to you.
 
-    <div class="card">
-        <div class="card-header" id="headingFive">
-            <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseFive"
-                    aria-expanded="false" aria-controls="collapseFive">
-                    Working Through Trauma
-                </button>
-            </h5>
-        </div>
-        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-            <div class="card-body">
-                This support group is being offered by the Cook Counseling Center and the Women's Center. This group is
-                for female-identified survivors of sexual trauma or violence who may benefit from peer support and
-                education.
-            </div>
-        </div>
-    </div>
+                <p class="font-weight-bold">“Group counseling will take longer than individual counseling because I will
+                    have to share the time with others.”</p>
 
-    <div class="card">
-        <div class="card-header" id="headingSix">
-            <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseSix"
-                    aria-expanded="false" aria-controls="collapseSix">
-                    The Moose Group
-                </button>
-            </h5>
-        </div>
-        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
-            <div class="card-body">
-                This group is for students who have experienced severe mental illness and/or hospitalization. It is open
-                to those who are interested in receiving support, feedback, and increasing their understanding of how
-                their mental illness affects their lives and their relationships.
-            </div>
-        </div>
-    </div>
+                Actually, group therapy is often more efficient than individual counseling for two reasons. First, you
+                can benefit from the group even during sessions when you say little but listen carefully to others. You
+                will find that you have much in common with other group members and as they work on a concern you might
+                learn more about yourself. Similarly, group members will often bring up issues that strike a chord with
+                you, but that you might not have been aware of or brought up yourself.
 
-    <div class="card">
-        <div class="card-header" id="headingSeven">
-            <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseSeven"
-                    aria-expanded="false" aria-controls="collapseSeven">
-                    Mindfulness for Anxiety
-                </button>
-            </h5>
-        </div>
-        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
-            <div class="card-body">
-                This group teaches mindfulness practices that help manage anxiety. Each week, members practice
-                mindfulness exercises and discuss how they are moving through their anxiety to pursue the things that
-                matter to them.
-            </div>
-        </div>
-    </div>
+                <p class="font-weight-bold">“I will be verbally attacked by the leaders and by other group members.”</p>
 
-    <div class="card">
-        <div class="card-header" id="headingEight">
-            <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseEight"
-                    aria-expanded="false" aria-controls="collapseEight">
-                    Grief Group
-                </button>
-            </h5>
-        </div>
-        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
-            <div class="card-body">
-                This group is for individuals who have experienced the death / imminent death of a loved one. It
-                provides a combination of psychoeducation and discussion in a safe, nonjudgmental space with others who
-                are there to listen.
-            </div>
-        </div>
-    </div>
+                It is very important that group members feel safe. Group leaders are there to help develop a safe
+                environment. Criticism is often difficult for people to handle appropriately. As group members come to
+                trust and accept one another, they generally come to view feedback and even confrontation as positives,
+                as if they are coming from a best friend.
 
-    <div class="card">
-        <div class="card-header" id="headingNine">
-            <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseNine"
-                    aria-expanded="false" aria-controls="collapseNine">
-                    Body Movement Group
-                </button>
-            </h5>
-        </div>
-        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
-            <div class="card-body">
-                This is a group guided physical yoga and meditation practive to use as tools for anxiety management. It
-                incorporates supportive conversation to encourage self-reflection and connection. Individuals are
-                required to participate in concurrent individual therapy.
-            </div>
-        </div>
-    </div>
+                One of the benefits of group therapy is the opportunity to receive feedback from others in a supportive
+                environment. It is rare to find friends who will gently point out how you might be behaving in ways that
+                hurt yourself or others, but this is precisely what group counseling can offer. This is all done in a
+                respectful, gentle way, so that you can make the greatest use of everything you learn.
 
-    <div class="card">
-        <div class="card-header" id="headingTen">
-            <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseTen"
-                    aria-expanded="false" aria-controls="collapseTen">
-                    Social Skills Gaming Group
-                </button>
-            </h5>
-        </div>
-        <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
-            <div class="card-body">
-                This group uses a fantasy role-playing game to help individuals with Autism Spectrum Disorder develop
-                social skills. Including perspective-taking, tolerating frustration, problem-solving, communication and
-                collaboration.
-            </div>
-        </div>
-    </div>
+                <p class="font-weight-bold">“Group counseling is second-best to individual counseling.”</p>
 
-    <div class="card">
-        <div class="card-header" id="headingEleven">
-            <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseEleven"
-                    aria-expanded="false" aria-controls="collapseEleven">
-                    Expressive Arts with Wagner
-                </button>
-            </h5>
-        </div>
-        <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
-            <div class="card-body">
-                This class engages members in different art modalities to promote stress management and personal growth.
-                This group facilitates creativity, self-reflection and connection. No previous artistic experience is
-                necessary.
-            </div>
-        </div>
-    </div>
+                If group counseling is recommended to you, it is because your counselor believes that it is the best way
+                to address your concerns. We do not put people into group counseling because we don’t have space in
+                individual counseling or because we want to save time. We recommend group when it is the most effective
+                method to help you. Your counselor can discuss with you why group counseling is recommended for you.
 
-    <div class="card">
-        <div class="card-header" id="headingTwelve">
-            <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseTwelve"
-                    aria-expanded="false" aria-controls="collapseTwelve">
-                    Our Voice
-                </button>
-            </h5>
-        </div>
-        <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordion">
-            <div class="card-body">
-                A support group, held outside of Cook Counseling, for any student of a marginalized racial or ethnic
-                background to glean space to explore shared difficulties pertaining to their identities.
-            </div>
-        </div>
-    </div>
+                <p class="font-weight-bold">“I have so much trouble talking to people, I’ll never be able to share in a
+                    group.”</p>
 
-    <div class="card">
-        <div class="card-header" id="headingThirteen">
-            <h5 class="mb-0">
-                <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseThirteen"
-                    aria-expanded="false" aria-controls="collapseThirteen">
-                    Facing Our Fears
-                </button>
-            </h5>
-        </div>
-        <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
-            <div class="card-body">
-                This focuses on systematically confronting worrying thoughts in order to decrease obsessive thought or
-                compulsive thoughts / behaviors. This group is for anyone who has repetitive worries or behaviors that
-                get in the way of their daily functioning.
+                Most people are anxious about the idea of sharing with a group. Almost without exception, within a few
+                sessions, people find that they do eventually talk in the group. Discomfort with speaking in a group
+                setting is probably one of the reasons that your counselor recommended this method of counseling.
+                Becoming comfortable speaking with others in a safe, group setting, may help your relationships with
+                others and other aspects of your life.
+
             </div>
         </div>
     </div>
 
 </div>
+
 <br>
-<h3>An Introduction to Group Counseling at Cook Counseling Center</h3>
-<div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R00fTKCpWVg" allowfullscreen></iframe>
-</div>
-<br>
-<h3>Understanding Self and Others Group Counseling</h3>
-<div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/c-rUDx8WNPg" allowfullscreen></iframe>
+<div class="row">
+    <div class="col-sm-5 mx-auto">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R00fTKCpWVg"
+                allowfullscreen></iframe>
+        </div>
+        <h5>An Introduction to Group Counseling at Cook Counseling Center</h5>
+    </div>
+    <br>
+    <div class="col-sm-5 mx-auto">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/c-rUDx8WNPg"
+                allowfullscreen></iframe>
+        </div>
+        <h5>Understanding Self and Others Group Counseling</h5>
+    </div>
 </div>

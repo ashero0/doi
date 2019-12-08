@@ -24,6 +24,10 @@ else if ($route == 'group-counseling') {
 	// Services / Group Counseling
 	$servc->groupCounseling();
 }
+else if ($route == 'group-list') {
+	// Services / Group Counseling / List of Group Counseling Programs
+	$servc->groupList();
+}
 else if ($route == 'psychiatric-services') {
 	// Services / Psychiatric Services
 	$servc->psychiatricServices();
@@ -48,6 +52,7 @@ class ServicesController {
     /* --- Services / Schedule an Appointment --- */
 	public function scheduleAppointment() {
 		$pageTitle = 'Schedule an Appointment';
+		$script = 'appointments';
 		// $stylesheet = '';
 
 		$counselors = Counselor::loadAllCounselors();
@@ -110,7 +115,17 @@ class ServicesController {
 		include_once SYSTEM_PATH.'/view/header.php';
 		include_once SYSTEM_PATH.'/view/services/group-counseling.php';
 		include_once SYSTEM_PATH.'/view/footer.php';
-    }
+	}
+	
+	/* --- Services / Group Counseling / List of Group Counseling Programs--- */
+	public function groupList() {
+		$pageTitle = 'List of Group Counseling Programs';
+		// $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+		include_once SYSTEM_PATH.'/view/services/gcsub-list.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+	}
     
     /* --- Services / Psychiatric Services --- */
 	public function psychiatricServices() {

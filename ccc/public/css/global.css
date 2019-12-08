@@ -71,6 +71,10 @@ h1 {
     color:  #861F40;
 }
 
-#IDInput{
+.input-width {
     width: 500px;
+}
+
+.hidden-display {
+    display: none;
 }

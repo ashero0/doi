@@ -51,6 +51,9 @@ RewriteRule ^services/individual-counseling$ app/controller/ServicesController.p
 # Services / Group Counseling
 RewriteRule ^services/group-counseling$ app/controller/ServicesController.php?route=group-counseling
 
+# Services / Group Counseling / List of Group Counseling Programs
+RewriteRule ^services/group-counseling/group-list$ app/controller/ServicesController.php?route=group-list
+
 # Services / Psychiatric Services
 RewriteRule ^services/psychiatric-services$ app/controller/ServicesController.php?route=psychiatric-services
 
