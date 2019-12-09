@@ -124,6 +124,9 @@ RewriteRule ^academic-help/study-skills/note-taking/lecture-notes$ app/controlle
 # Academic Help / Study Skills / Recall
 RewriteRule ^academic-help/study-skills/recall$ app/controller/AcademicController.php?route=recall
 
+# Academic Help / Study Skills / Difficult Questions
+RewriteRule ^academic-help/study-skills/difficult-questions$ app/controller/AcademicController.php?route=diff-questions
+
 # Academic Help / Study Skills / Vocabulary
 RewriteRule ^academic-help/study-skills/vocab$ app/controller/AcademicController.php?route=vocab
 
