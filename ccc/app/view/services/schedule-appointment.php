@@ -16,9 +16,4 @@
 	Please enter a 9 digit Student ID.
 </div>
 
-
-<!--
-	display: hidden;
-<div class="input group mb-3">
-	<input type="number" min="0" max="999999999" required>
-</div> -->
+<input id="datepicker">

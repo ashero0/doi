@@ -51,6 +51,9 @@
 
 	<!-- <script src="<?= BASE_URL ?>/public/js/header.js"></script> -->
 
+	<!-- Import JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 	<!-- Import Bootstrap stuff -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
 	 crossorigin="anonymous">
@@ -65,8 +68,11 @@
 	<?php endif; ?>
 	<link rel="stylesheet" href="<?= BASE_URL ?>/public/css/global.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Import calendar widget. -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
+	<!-- Import JS. -->
 	<?php if(isset($script)): ?>
 		<script src="<?= BASE_URL ?>/public/js/<?= $script ?>.js"></script>
 	<?php endif; ?>
@@ -162,7 +168,7 @@
 						<a class="dropdown-item" href="<?=BASE_URL?>about/confidentiality-policy">Confidentiality Policy</a>
 						<a class="dropdown-item" href="<?=BASE_URL?>about/forms">Forms</a>
 						<a class="dropdown-item" href="<?=BASE_URL?>about/outreach">Outreach</a>
-						<a class="dropdown-item" href="<?=BASE_URL?>about/giving">Giving</a>
+						<a class="dropdown-item" target="_blank" href="https://students.vt.edu/advancement/giving.html">Giving</a>
 						<a class="dropdown-item" href="<?=BASE_URL?>about/graduate-training">Graduate Training</a>
 						<a class="dropdown-item" target="_blank" href="https://students.vt.edu/">Student Affairs</a>
 					</div>
