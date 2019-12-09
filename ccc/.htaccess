@@ -34,6 +34,15 @@ RewriteRule ^about/giving$ app/controller/AboutController.php?route=giving
 # About / Graduate Training
 RewriteRule ^about/graduate-training$ app/controller/AboutController.php?route=graduate-training
 
+# About / Graduate Training / Graduate Practicum
+RewriteRule ^about/graduate-training/practicum$ app/controller/AboutController.php?route=graduate-practicum
+
+# About / Graduate Training / Doctoral Internship
+RewriteRule ^about/graduate-training/doctoral-internship$ app/controller/AboutController.php?route=doctoral-internship
+
+# About / Graduate Training / VCOM Clerkship
+RewriteRule ^about/graduate-training/vcom-clerkship$ app/controller/AboutController.php?route=vcom-clerkship
+
 
 
 # Services / Emergency Services
