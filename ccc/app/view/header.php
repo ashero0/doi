@@ -66,7 +66,8 @@
 	<?php if(isset($stylesheet)): ?>
 	<link rel="stylesheet" href="<?= BASE_URL ?>/public/css/<?= $stylesheet ?>.css">
 	<?php endif; ?>
-	<link rel="stylesheet" href="<?= BASE_URL ?>/public/css/global.css">
+
+	<link rel="stylesheet" href="<?= BASE_URL ?>/public/css/global.css" type="text/css">
 
 	<!-- Import calendar widget. -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">

@@ -42,6 +42,9 @@ RewriteRule ^services/emergency-services$ app/controller/ServicesController.php?
 # Services / Schedule an Appointment
 RewriteRule ^services/schedule-appointment$ app/controller/ServicesController.php?route=schedule-appointment
 
+# Services / Get Appointment Information from Database
+RewriteRule ^services/schedule-appointment/get-info$ app/controller/ServicesController.php?route=schedule-appointment-get-info
+
 # Services / Process Appointment Schedule
 RewriteRule ^services/schedule-appointment/process$ app/controller/ServicesController.php?route=schedule-appointment-process
 

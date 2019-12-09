@@ -76,12 +76,19 @@ html {
     position: relative;
     min-height: 100%;
 }
+
 .footer {
     position: absolute;
     bottom: 0;
 }
+
 .input-width {
     width: 500px;
+}
+
+#selectCounselor {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
 }
 
 .hidden-display {
