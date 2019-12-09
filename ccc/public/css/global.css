@@ -71,6 +71,10 @@ h1 {
     color:  #861F40;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
 <<<<<<< HEAD
 .footer {
     position: absolute;
