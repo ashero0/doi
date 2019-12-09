@@ -1,5 +1,5 @@
 <h1>Group Counseling</h1>
-
+<br>
 <p>Group counseling is one of our primary clinical services. For many students, group therapy is the most
     effective and appropriate treatment option.
 
@@ -17,8 +17,8 @@
 
     Check out our videos and the links below for more information about our group program. </p>
 <div class="col text-center">
-    <a href="<?=BASE_URL?>services/group-counseling/group-list" class="btn btn-primary btn-lg">List of Group
-        Counseling Programs</a>
+    <a href="<?=BASE_URL?>services/group-counseling/group-list" target="_blank" class="btn btn-primary btn-lg">List of
+        Group Counseling Programs</a>
 </div>
 <br>
 
