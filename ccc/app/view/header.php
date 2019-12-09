@@ -59,14 +59,15 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/custom.css">
 
-    <!-- Import Font Awesome Icons -->
-    <script src="https://kit.fontawesome.com/587f22926a.js" crossorigin="anonymous"></script>
+	<!-- Import Font Awesome Icons -->
+	<script src="https://kit.fontawesome.com/587f22926a.js" crossorigin="anonymous"></script>
+	
+	<!-- Import styles. -->
+	<?php if(isset($stylesheet)): ?>
+	<link rel="stylesheet" href="<?= BASE_URL ?>/public/css/<?= $stylesheet ?>.css">
+	<?php endif; ?>
 
-    <!-- Import styles. -->
-    <?php if(isset($stylesheet)): ?>
-    <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/<?= $stylesheet ?>.css">
-    <?php endif; ?>
-    <link rel="stylesheet" href="<?= BASE_URL ?>/public/css/global.css">
+	<link rel="stylesheet" href="<?= BASE_URL ?>/public/css/global.css" type="text/css">
 
     <!-- Import calendar widget. -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
