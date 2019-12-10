@@ -12,6 +12,10 @@ else if ($route == 'schedule-appointment') {
 	// Services / Schedule an Appointment
 	$servc->scheduleAppointment();
 }
+else if ($route == 'schedule-appointment-get-info') {
+	// Get Information about appointments from database
+	$servc->getAppointmentInfo();
+}
 else if ($route == 'schedule-appointment-process') {
 	// Process Schedule Appointmnent
 	$servc->scheduleAppointmentProcess();
@@ -55,13 +59,43 @@ class ServicesController {
 		$script = 'appointments';
 		// $stylesheet = '';
 
-		$counselors = Counselor::loadAllCounselors();
-		$closedDates = ClosedDate::loadAllDates();
-		$appointments = Appointment::loadAllAppointments();
-
 		include_once SYSTEM_PATH.'/view/header.php';
 		include_once SYSTEM_PATH.'/view/services/schedule-appointment.php';
 		include_once SYSTEM_PATH.'/view/footer.php';
+    }
+
+    /* --- Get information about Appointments from server --- */
+    public function getAppointmentInfo() {
+    	$counselors = Counselor::loadAllCounselors();
+		$closedDates = ClosedDate::loadAllDates();
+		$appointments = Appointment::loadAllAppointments();
+
+		if ($counselors == null) {
+			$json = array(
+				'error' => 'Could not fetch list of counselors from server.'
+			);
+		}
+		else if ($closedDates == null) {
+			$json = array(
+				'error' => 'Could not fetch list of closed dates from server.'
+			);
+		}
+		else if ($appointments == null) {
+			$json = array(
+				'error' => 'Could not fetch list of existing appointments from server.'
+			);
+		}
+		else {
+			$json = array(
+				'success' => 'success',
+				'counselors' => $counselors,
+				'closedDates' => $closedDates,
+				'appointments' => $appointments
+			);
+		}
+
+		header('Content-Type: application/json');
+		echo json_encode($json);
     }
 
     /* --- Services / Schedule and Appointment --- */

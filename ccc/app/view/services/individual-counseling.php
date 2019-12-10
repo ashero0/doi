@@ -1,5 +1,5 @@
 <h1>Individual Counseling</h1>
-
+<br>
 After the initial assessment appointment, you and your counselor may agree that a course of individual therapy is the
 most appropriate treatment for you. You and the therapist will identify an area of concern for your work and establish
 goals for therapy. On average, students are seen for 4-5 sessions, meeting every 2-3 weeks. In the majority of cases,

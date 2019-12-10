@@ -34,6 +34,15 @@ RewriteRule ^about/giving$ app/controller/AboutController.php?route=giving
 # About / Graduate Training
 RewriteRule ^about/graduate-training$ app/controller/AboutController.php?route=graduate-training
 
+# About / Graduate Training / Graduate Practicum
+RewriteRule ^about/graduate-training/practicum$ app/controller/AboutController.php?route=graduate-practicum
+
+# About / Graduate Training / Doctoral Internship
+RewriteRule ^about/graduate-training/doctoral-internship$ app/controller/AboutController.php?route=doctoral-internship
+
+# About / Graduate Training / VCOM Clerkship
+RewriteRule ^about/graduate-training/vcom-clerkship$ app/controller/AboutController.php?route=vcom-clerkship
+
 
 
 # Services / Emergency Services
@@ -41,6 +50,9 @@ RewriteRule ^services/emergency-services$ app/controller/ServicesController.php?
 
 # Services / Schedule an Appointment
 RewriteRule ^services/schedule-appointment$ app/controller/ServicesController.php?route=schedule-appointment
+
+# Services / Get Appointment Information from Database
+RewriteRule ^services/schedule-appointment/get-info$ app/controller/ServicesController.php?route=schedule-appointment-get-info
 
 # Services / Process Appointment Schedule
 RewriteRule ^services/schedule-appointment/process$ app/controller/ServicesController.php?route=schedule-appointment-process
@@ -123,6 +135,9 @@ RewriteRule ^academic-help/study-skills/note-taking/lecture-notes$ app/controlle
 
 # Academic Help / Study Skills / Recall
 RewriteRule ^academic-help/study-skills/recall$ app/controller/AcademicController.php?route=recall
+
+# Academic Help / Study Skills / Difficult Questions
+RewriteRule ^academic-help/study-skills/difficult-questions$ app/controller/AcademicController.php?route=diff-questions
 
 # Academic Help / Study Skills / Vocabulary
 RewriteRule ^academic-help/study-skills/vocab$ app/controller/AcademicController.php?route=vocab

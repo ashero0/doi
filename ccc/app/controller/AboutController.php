@@ -40,7 +40,18 @@ else if ($route == 'graduate-training') {
     // About / Graduate Training
     $ac->graduateTraining();
 }
-
+else if ($route == 'graduate-practicum') {
+    // About / Graduate Practicum (subpage under Graduate Training)
+    $ac->graduatePracticum();
+}
+else if ($route == 'doctoral-internship') {
+    // About / Doctoral Internship (subpage under Graduate Training)
+    $ac->doctoralInternship();
+}
+else if ($route == 'vcom-clerkship') {
+    // About / VCOM Clerkship (subpage under Graduate Training)
+    $ac->vcomClerkship();
+}
 
 class AboutController {
 
@@ -133,6 +144,35 @@ class AboutController {
         include_once SYSTEM_PATH.'/view/about/graduate-training.php';
 		include_once SYSTEM_PATH.'/view/footer.php';
     }
+
+    /*-- About / Graduate Training / Practicum --- */
+	public function graduatePracticum() {
+		$pageTitle = 'Graduate Practicum';
+        // $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+        include_once SYSTEM_PATH.'/view/about/graduate-practicum.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+    }
+
+    /*-- About / Graduate Training / Doctoral Internship --- */
+	public function doctoralInternship() {
+		$pageTitle = 'Doctoral Internship';
+        // $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+        include_once SYSTEM_PATH.'/view/about/doctoral-internship.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+    }
     
+    /*-- About / Graduate Training / VCOM Clerkship --- */
+	public function vcomClerkship() {
+		$pageTitle = 'VCOM Medical Student Clerkship';
+        // $stylesheet = '';
+
+		include_once SYSTEM_PATH.'/view/header.php';
+        include_once SYSTEM_PATH.'/view/about/vcom-clerkship.php';
+		include_once SYSTEM_PATH.'/view/footer.php';
+    }
     
 }

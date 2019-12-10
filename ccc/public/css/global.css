@@ -76,12 +76,47 @@ html {
     position: relative;
     min-height: 100%;
 }
+
 .footer {
     position: absolute;
     bottom: 0;
 }
+
 .input-width {
     width: 500px;
+}
+
+#selectCounselor {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+#appointment-datetime {
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+#timeForm {
+	margin-left: 32px;
+}
+
+#timeForm p {
+	margin-bottom: 8px;
+}
+
+#timeForm .time-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 32px;
+}
+
+#timeForm .time-buttons button {
+	margin-bottom: 4px;
+    margin-right: 4px;
+}
+
+.flatpickr-calendar {
+	margin-bottom: auto;
 }
 
 .hidden-display {
