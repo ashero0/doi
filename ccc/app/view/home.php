@@ -5,9 +5,9 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-        <div class="carousel-item active" style="height: 50%;">
+        <div class="carousel-item active">
             <img class="d-block w-100"
-                src="https://vtnews.vt.edu/content/vtnews_vt_edu/en/articles/2016/02/020516-dsa-cookreaccred/jcr:content/article-image.transform/xl-medium/image.jpg"
+                src="<?=BASE_URL?>/public/assets/counseling.jpg"
                 alt="First slide">
             <div class="carousel-caption d-none d-md-block"
                 style="background-color: #861F40; width: 50%; margin: 0 auto;">
@@ -23,7 +23,7 @@
                 </a>
             </div>
         </div>
-        <div class="carousel-item" style="height: 50%;">
+        <div class="carousel-item">
             <img class="d-block w-100" src="<?=BASE_URL?>/public/assets/staff.jpg" alt="Second slide">
             <div class="carousel-caption d-none d-md-block"
                 style="background-color: #861F40; width: 50%; margin: 0 auto;">
@@ -39,9 +39,9 @@
                 </a>
             </div>
         </div>
-        <div class="carousel-item" style="height: 50%;">
+        <div class="carousel-item">
             <img class="d-block w-100"
-                src="https://www.ucc.vt.edu/content/ucc_vt_edu/en/index/_jcr_content/cta/adaptiveimage.img.jpg/1568739868914.jpg"
+                src="<?=BASE_URL?>/public/assets/Moose.jpg"
                 alt="Third slide">
             <div class="carousel-caption d-none d-md-block"
                 style="background-color: #861F40; width: 50%; margin: 0 auto;">
@@ -60,11 +60,11 @@
 
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="carousel-control-prev-icon" aria-hidden="true" style="width: 50px; height: 30px;"></span>
         <span class="sr-only">Previous</span>
     </a>
     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon" aria-hidden="true" style="width: 50px; height: 30px;"></span>
         <span class="sr-only">Next</span>
     </a>
 </div>
