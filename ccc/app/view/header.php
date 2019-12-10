@@ -241,9 +241,6 @@
                                     <a tabindex="-1" href="<?=BASE_URL?>academic-help/study-skills/time-management" class="dropdown-item">Time Management</a>
                                 </li>
                                 <li>
-                                    <a tabindex="-1" href="<?=BASE_URL?>academic-help/study-skills/environment" class="dropdown-item">Environment</a>
-                                </li>
-                                <li>
                                     <a tabindex="-1" href="<?=BASE_URL?>academic-help/study-skills/sq3r" class="dropdown-item">SQ3R - Improving Reading
                                         Comprehension</a>
                                 </li>
