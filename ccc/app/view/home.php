@@ -5,11 +5,12 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" style="height: 50%;">
             <img class="d-block w-100"
                 src="https://vtnews.vt.edu/content/vtnews_vt_edu/en/articles/2016/02/020516-dsa-cookreaccred/jcr:content/article-image.transform/xl-medium/image.jpg"
                 alt="First slide">
-            <div class="carousel-caption d-none d-md-block" style="background-color: #861F40">
+            <div class="carousel-caption d-none d-md-block"
+                style="background-color: #861F40; width: 50%; margin: 0 auto;">
                 <h1 style="color: #FFFFFF;">Need an appointment?</h1>
                 <a href="<?=BASE_URL?>services/schedule-appointment" style="color: #FFFFFF;">
                     <h6>Schedule one now<svg aria-hidden="true" focusable="false" data-prefix="fal"
@@ -22,15 +23,39 @@
                 </a>
             </div>
         </div>
-        <div class="carousel-item">
-            <img class="d-block w-100"
-                src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/70640555_1487175351424905_8290028540527640576_o.jpg?_nc_cat=101&_nc_ohc=BTJpuJnrQdAAQkobnWiti4_zMcUQRXAZr69kBBT6UBy5nw9fcgG91zeDA&_nc_ht=scontent-iad3-1.xx&oh=7648b4390ee7109edf4f9744c5f5dff0&oe=5E8514FA"
-                alt="Second slide">
+        <div class="carousel-item" style="height: 50%;">
+            <img class="d-block w-100" src="<?=BASE_URL?>/public/assets/staff.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block"
+                style="background-color: #861F40; width: 50%; margin: 0 auto;">
+                <h1 style="color: #FFFFFF;">Meet the team!</h1>
+                <a href="<?=BASE_URL?>about/staff" style="color: #FFFFFF;">
+                    <h6>Learn about our faculty and staff<svg aria-hidden="true" focusable="false" data-prefix="fal"
+                            data-icon="arrow-right" style="color: #FFFFFF;" height=12 width=13 role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                            <path fill="currentColor"
+                                d="M216.464 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L387.887 239H12c-6.627 0-12 5.373-12 12v10c0 6.627 5.373 12 12 12h375.887L209.393 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L233.434 36.465c-4.686-4.687-12.284-4.687-16.97 0z">
+                            </path>
+                        </svg></h6>
+                </a>
+            </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" style="height: 50%;">
             <img class="d-block w-100"
                 src="https://www.ucc.vt.edu/content/ucc_vt_edu/en/index/_jcr_content/cta/adaptiveimage.img.jpg/1568739868914.jpg"
                 alt="Third slide">
+            <div class="carousel-caption d-none d-md-block"
+                style="background-color: #861F40; width: 50%; margin: 0 auto;">
+                <h1 style="color: #FFFFFF;">Meet Moose!</h1>
+                <a href="https://vtnews.vt.edu/articles/2019/03/unirel_moose.html" style="color: #FFFFFF;">
+                    <h6>Read more about his recent award<svg aria-hidden="true" focusable="false" data-prefix="fal"
+                            data-icon="arrow-right" style="color: #FFFFFF;" height=12 width=13 role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                            <path fill="currentColor"
+                                d="M216.464 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L387.887 239H12c-6.627 0-12 5.373-12 12v10c0 6.627 5.373 12 12 12h375.887L209.393 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L233.434 36.465c-4.686-4.687-12.284-4.687-16.97 0z">
+                            </path>
+                        </svg></h6>
+                </a>
+            </div>
         </div>
 
     </div>
@@ -44,10 +69,39 @@
     </a>
 </div>
 
-<p>this is the homepage code</p>
-<a href="<?=BASE_URL?>/about/contact-us">
-    <p>contact us</p>
-</a>
-<a href="<?=BASE_URL?>/about/hours-and-location">
-    <p>hours & location</p>
-</a>
+<div class="row" style="padding-top: 40px;">
+    <div class="col-md-6">
+        <img src="<?=BASE_URL?>/public/assets/ccc-map.png" alt="google maps" width=590 height=325>
+    </div>
+    <div class="col-md-6">
+        <h3>Hours</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Monday - Thursday</p>
+            </div>
+            <div class="col-md-6">
+                <p><i>8 AM - 5 PM</i></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Friday</p>
+            </div>
+            <div class="col-md-6">
+                <p><i>9 AM - 5 PM</i></p>
+            </div>
+        </div>
+        <h3>Location</h3>
+        <p>240 McComas Hall (0108)</p>
+        <p>895 Washington St. SW, Blacksburg, VA 24061</p>
+        <p>540-231-6557 | counseling@vt.edu</p>
+        <a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-primary btn-lg">Schedule an Appointment</a>
+    </div>
+</div>
+<h3 style="padding-top: 40px;">Information for...</h3>
+<div class="row">
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg" style="background-color: #DDDDDD;">Students</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg" style="background-color: #DDDDDD;">International Students</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg" style="background-color: #DDDDDD;">Parents and Families</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg" style="background-color: #DDDDDD;">Faculty and Staff</a>
+</div>
