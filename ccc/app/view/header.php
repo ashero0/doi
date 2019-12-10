@@ -147,15 +147,15 @@
             <a href="<?=BASE_URL?>" class="ccc-logo navbar-link">
                 <img src="<?=BASE_URL?>/public/assets/ccc-logo.png" />
             </a>
-            <a href="<?=BASE_URL?>" class="navigation-link navbar-link">
+            <a href="<?=BASE_URL?>services/emergency-services" class="navigation-link navbar-link">
                 <i class="fas fa-exclamation-circle"></i>
                 <p>Emergencies</p>
             </a>
-            <a href="<?=BASE_URL?>/services/schedule-appointment" class="navigation-link navbar-link">
+            <a href="<?=BASE_URL?>services/schedule-appointment" class="navigation-link navbar-link">
                 <i class="fas fa-calendar"></i>
                 <p>Appointments</p>
             </a>
-            <a href="<?=BASE_URL?>" class="navigation-link navbar-link">
+            <a href="<?=BASE_URL?>about/contact-us" class="navigation-link navbar-link">
                 <i class="fas fa-phone"></i>
                 <p>Contact Us</p>
             </a>
