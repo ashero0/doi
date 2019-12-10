@@ -4,13 +4,13 @@
 
 	<form id="studentIDForm">
 		<div class="form-group">
-			<label for="exampleFormControlInput1">Student ID Number</label>
+			<label for="exampleFormControlInput1">Enter Student ID Number</label>
 
 			<div class="input-group input-width">
 			    <input type="number" id="IDInputVerify" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
 
 			    <div class="input-group-append">
-					<button class="btn btn-primary" type="submit">Submit</button>
+					<button id="submitButton" class="btn btn-secondary" type="submit">Submit</button>
 				</div>
 			</div>
 		</div>
@@ -21,29 +21,23 @@
 	</div>
 
 	<form id="counselorForm" class="hidden-display">
-		<label for="selectCounselor">Who would you like to see?</label>
+		<div class="form-group">
+			<label for="selectCounselor">Who would you like to see?</label>
 
-		<div class="input-group input-width">
-			<select class="form-control input-width" id="selectCounselor">
-		    	<option value="-1">First Available</option>
-		    </select>
-
-		    <div class="input-group-append">
-				<button class="btn btn-primary" type="submit">Submit</button>
-			</div>
-	</form>
-
-	<!-- <form id="dateForm" class="hidden-display">
-		<label for="selectDate">Select Date</label>
-		
-		<div class="input-group input-width">
-			<input class="form-control" id="selectDate"/>
-			<div class="input-group-append">
-				<button class="btn btn-primary" type="submit">
-					Submit
-				</button>
+			<div class="input-group input-width">
+				<select class="form-control input-width" id="selectCounselor">
+			    	<option value="-1">First Available</option>
+			    </select>
 			</div>
 		</div>
-	</form> -->
+	</form>
+
+	<div id="appointment-datetime" style="display: flex;">
+		<form id="dateForm" class="hidden-display">
+			<div id="selectDate"></div>
+		</form>
+		<form id="timeForm">
+		</form>
+	</div>
 
 </div>
