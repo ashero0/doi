@@ -6,8 +6,8 @@
         <div class="btn btn-static" style="background-color: #f26621; color: #ffff;">
             Need Academic Relief? <a
                 href="https://www.ucc.vt.edu/content/dam/ucc_vt_edu/assets/docs/Application%20Packet%20for%20Academic%20Relief.pdf"
-                target="_blank" style="color: #ffff">Apply now<svg aria-hidden="true" focusable="false" data-prefix="fal"
-                    data-icon="arrow-right" style="color: #FFFFFF;" height="12" width="13" role="img"
+                target="_blank" style="color: #ffff">Apply now<svg aria-hidden="true" focusable="false"
+                    data-prefix="fal" data-icon="arrow-right" style="color: #FFFFFF;" height="12" width="13" role="img"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
                     <path fill="currentColor"
                         d="M216.464 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L387.887 239H12c-6.627 0-12 5.373-12 12v10c0 6.627 5.373 12 12 12h375.887L209.393 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L233.434 36.465c-4.686-4.687-12.284-4.687-16.97 0z">
@@ -45,4 +45,13 @@
     out" (not benrolled at Virginia Tech) for the following semester. After engaging in treatment targeting the
     conditions that created the academic difficulties (at least <b>5 sessions</b>), they may submit an application for
     re-enrollment. A recommendation from a health or mental health provider must be submitted to the Director of Cook
-    Counseling Center for permission re-enroll in classes at Virginia Tech.<p>
+    Counseling Center for permission re-enroll in classes at Virginia Tech.</p>
+
+<!-- <h3>Other Academic Resources</h3>
+
+<h4 style="margin-left: 50px;">Student Success Center</h4>
+<p style="margin-left: 40px;">The Student Success Center seeks to empower students with the knowledge, skills, and self-awareness necessary to
+achieve success in college and in life. The center offers a number of programs and services for currently
+enrolled, undergraduate students. These include, but are not limited to: tutoring, academic coaching, workshops
+on topics related to academic skills and behaviors, and college success strategies courses. The Student Success
+Center does not charge for any of its programs and services. -->
