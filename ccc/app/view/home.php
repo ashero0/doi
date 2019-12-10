@@ -6,9 +6,7 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100"
-                src="<?=BASE_URL?>/public/assets/counseling.jpg"
-                alt="First slide">
+            <img class="d-block w-100" src="<?=BASE_URL?>/public/assets/counseling.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block"
                 style="background-color: #861F40; width: 50%; margin: 0 auto;">
                 <h1 style="color: #FFFFFF;">Need an appointment?</h1>
@@ -40,13 +38,12 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100"
-                src="<?=BASE_URL?>/public/assets/Moose.jpg"
-                alt="Third slide">
+            <img class="d-block w-100" src="<?=BASE_URL?>/public/assets/Moose.jpg" alt="Third slide">
             <div class="carousel-caption d-none d-md-block"
                 style="background-color: #861F40; width: 50%; margin: 0 auto;">
                 <h1 style="color: #FFFFFF;">Meet Moose!</h1>
-                <a href="https://vtnews.vt.edu/articles/2019/03/unirel_moose.html" style="color: #FFFFFF;">
+                <a href="https://vtnews.vt.edu/articles/2019/03/unirel_moose.html" target="_blank"
+                    style="color: #FFFFFF;">
                     <h6>Read more about his recent award<svg aria-hidden="true" focusable="false" data-prefix="fal"
                             data-icon="arrow-right" style="color: #FFFFFF;" height=12 width=13 role="img"
                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
@@ -100,8 +97,12 @@
 </div>
 <h3 style="padding-top: 40px;">Information for...</h3>
 <div class="row">
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg" style="background-color: #DDDDDD;">Students</a>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg" style="background-color: #DDDDDD;">International Students</a>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg" style="background-color: #DDDDDD;">Parents and Families</a>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg" style="background-color: #DDDDDD;">Faculty and Staff</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg"
+        style="background-color: #DDDDDD;">Students</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg"
+        style="background-color: #DDDDDD;">International Students</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg"
+        style="background-color: #DDDDDD;">Parents and Families</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg"
+        style="background-color: #DDDDDD;">Faculty and Staff</a>
 </div>
