@@ -102,7 +102,7 @@
 			</div>
 			<div class="card-block px-2" style="padding-top: 10px; margin-left: 5px">
 				<h4 class="card-title">MaDonna Overstreet</h4>
-				<p class="card-text">Office Manager / Assistant to the Director
+				<p class="card-text">Office Manager
 					<br>
 					<a href="mailto:madonna@vt.edu">madonna@vt.edu</a>
 					<br>
@@ -140,8 +140,7 @@
 			</div>
 			<div class="card-block px-2" style="padding-top: 10px; margin-left: 5px">
 				<h4 class="card-title">Rita Klein</h4>
-				<p class="card-text">Coordinator - E. Eggleston / Senior Staff Psychologist
-					<br>
+				<p class="card-text">Coordinator - E. Eggleston					<br>
 					<a href="mailto:rfklein@vt.edu">rfklein@vt.edu</a>
 					<br>
 					<a href="tel:540-231-6557">540-231-6557</a>
@@ -160,7 +159,7 @@
 			</div>
 			<div class="card-block px-2" style="padding-top: 10px; margin-left: 5px">
 				<h4 class="card-title">Laura Miller</h4>
-				<p class="card-text">Coordinator - Kent Square / Staff Psychologist
+				<p class="card-text">Coordinator - Kent Square
 					<br>
 					<a href="mailto:lauramiller@vt.edu">lauramiller@vt.edu</a>
 					<br>
@@ -178,7 +177,7 @@
 			</div>
 			<div class="card-block px-2" style="padding-top: 10px; margin-left: 5px">
 				<h4 class="card-title">Robert Ritchey</h4>
-				<p class="card-text">Coordinator - Emergency Services/Case Manager
+				<p class="card-text">Coordinator - Emergency Services
 					<br>
 					<a href="mailto:ritcheyr@vt.edu">ritcheyr@vt.edu</a>
 					<br>
@@ -198,7 +197,7 @@
 			</div>
 			<div class="card-block px-2" style="padding-top: 10px; margin-left: 5px">
 				<h4 class="card-title">Claire Shen</h4>
-				<p class="card-text">Coordinator - Group Therapy / Senior Staff Psychologist
+				<p class="card-text">Coordinator - Group Therapy
 					<br>
 					<a href="mailto:yawang1@vt.edu">yawang1@vt.edu</a>
 					<br>
