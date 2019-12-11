@@ -3,17 +3,15 @@
         <h1>Academic Relief</h1>
     </div>
     <div class="col-md-4">
-        <div class="btn btn-static" style="background-color: #f26621; color: #ffff;">
-            Need Academic Relief? <a
-                href="https://www.ucc.vt.edu/content/dam/ucc_vt_edu/assets/docs/Application%20Packet%20for%20Academic%20Relief.pdf"
-                target="_blank" style="color: #ffff">Apply now<svg aria-hidden="true" focusable="false"
-                    data-prefix="fal" data-icon="arrow-right" style="color: #FFFFFF;" height="12" width="13" role="img"
-                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-                    <path fill="currentColor"
-                        d="M216.464 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L387.887 239H12c-6.627 0-12 5.373-12 12v10c0 6.627 5.373 12 12 12h375.887L209.393 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L233.434 36.465c-4.686-4.687-12.284-4.687-16.97 0z">
-                    </path>
-                </svg></a>
-        </div>
+        <a href="<?=BASE_URL?>services/group-counseling/group-list" target="_blank" class="btn btn-primary btn-lg"
+            style="background-color: #f26621; color: #ffff">Need
+            Academic Relief? Apply now<svg aria-hidden="true" focusable="false" data-prefix="fal"
+                data-icon="arrow-right" style="color: #FFFFFF;" height="12" width="13" role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                <path fill="currentColor"
+                    d="M216.464 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L387.887 239H12c-6.627 0-12 5.373-12 12v10c0 6.627 5.373 12 12 12h375.887L209.393 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L233.434 36.465c-4.686-4.687-12.284-4.687-16.97 0z">
+                </path>
+            </svg></a>
     </div>
 </div>
 <br>
