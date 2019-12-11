@@ -122,12 +122,12 @@ class ServicesController {
     	$appt = Appointment::insertAppointment($appt);
 
     	if ($appt) {
+    		$_SESSION['message'] = '<div class="alert alert-success" role="alert" style="margin: 0 24px;">Appointment reserved successfully.</div>';
     		header('Location: '.BASE_URL); exit();
-    		echo 'Appointment created successfully.';
     	}
     	else {
-    		header('Location: '.BASE_URL.'/services/schedule-appointment');
-    		echo 'Error scheduling appointment.';
+    		$_SESSION['message'] = '<div class="alert alert-danger" role="alert" style="margin: 0 24px;">Error scheduling appointment.</div>';
+    		header('Location: '.BASE_URL.'/services/schedule-appointment'); exit();
     	}
     }
     

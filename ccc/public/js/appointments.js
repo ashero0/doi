@@ -10,7 +10,6 @@ $j(document).ready(function () {
             $j.when(loadAppointmentInfo()).done( function(appointmentInfo) {
                 apptInfo = appointmentInfo;
                 if (apptInfo.success == 'success') {
-                    // console.log(apptInfo);
                     loadCounselorSelector(apptInfo.counselors);
                     counselorId = $j("#counselorForm #selectCounselor").val();
                     loadDateSelector();
@@ -28,11 +27,27 @@ $j(document).ready(function () {
         counselorId = $j("#counselorForm #selectCounselor").val();
         loadDateSelector();
         dateChanged(new Date());
-    })
+    });
 });
+
+function submitAppt(counselor_id, hour) {
+    let date = $j('#dateForm').val();
+    let student_id = $j('#studentIDForm #IDInputVerify').val();
+    let date_time = date + ' ' + hour + ':00:00';
+
+    let parameters = {
+        counselor_id: counselor_id,
+        student_id: student_id,
+        date_time: date_time,
+        notes: ''
+    };
+    post(base_url + '/services/schedule-appointment/process', parameters);
+}
 
 function selectAppointment(counselor_id, hour) {
     console.log('counselor_id: ' + counselor_id + ', hour: ' + hour);
+    event.preventDefault();
+    confirmAppt(counselor_id, hour);
 }
 
 function validateInput() {
@@ -132,8 +147,6 @@ function isAvailableAppts(date) {
 }
 
 function dateChanged(date) {
-    // console.log(Date(date));
-    // console.log(Date('2019-12-09'));
     $j('#timeForm').empty();
     initializeDatePicker(date);
 }
@@ -182,7 +195,7 @@ function getAppointmentElements(availableTimes, counselor_id) {
     for (var i = 0; i < availableTimes.length; i++) {
         if (availableTimes[i] == '1') {
             apptElements += '<button class="btn btn-primary btn-sm" type="button" ';
-            apptElements += 'onclick="selectAppointment(' + counselor_id + ', ' + getCorrespondingHour(i) + ')">';
+            apptElements += 'onclick="selectAppointment(' + counselor_id + ', ' + getCorresponding24Hour(i) + ')">';
             apptElements += getCorrespondingTime(i);
             apptElements += '</button>';
         }
@@ -207,7 +220,6 @@ function getAvailableApptsForCounselor(date, id) {
             }
         }
     }
-    // console.log(conflictingAppts);
 
     var availableTimes = counselor['availableTimes'].split("");
 
@@ -219,8 +231,7 @@ function getAvailableApptsForCounselor(date, id) {
         let index = getCorrespondingIndex(apptHours);
         availableTimes[index] = '0';
     }
-
-    // console.log(availableTimes);
+    
     return availableTimes;
 }
 
@@ -248,6 +259,26 @@ function getCorrespondingHour(index) {
     }
 }
 
+function getCorresponding24Hour(index) {
+    let val = getCorrespondingHour(index);
+    if (val <= 4) {
+        val += 12;
+    }
+    return val;
+}
+
+function get12HourFrom24Hour(hour) {
+    if (hour >= 13) {
+        return (hour - 12) + ':00 PM';
+    }
+    else if (hour == 12) {
+        return hour + ':00 PM';
+    }
+    else {
+        return hour + ':00 AM';
+    }
+}
+
 function getCorrespondingIndex(time) {
     if (time <= 4) {
         return time + 4;
@@ -255,4 +286,28 @@ function getCorrespondingIndex(time) {
     else {
         return time - 8;
     }
+}
+
+// source: https://stackoverflow.com/questions/133925/javascript-post-request-like-a-form-submit
+// Post to the provided URL with the specified parameters.
+function post(path, parameters) {
+    var form = $j('<form></form>');
+
+    form.attr("method", "post");
+    form.attr("action", path);
+
+    $j.each(parameters, function(key, value) {
+        var field = $j('<input></input>');
+
+        field.attr("type", "hidden");
+        field.attr("name", key);
+        field.attr("value", value);
+
+        form.append(field);
+    });
+
+    // The form needs to be a part of the document in
+    // order for us to be able to submit it.
+    $j(document.body).append(form);
+    form.submit();
 }
