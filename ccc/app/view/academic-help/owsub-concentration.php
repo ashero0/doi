@@ -19,7 +19,7 @@
     your memory and concentration but the strategies you're trying just don't seem to be helping as much as you would
     like, please contact <a href="<?=BASE_URL?>about/contact-us" target="_blank">Cook Counseling Center</a>.</p>
 
-<h3>Activity</h3>
+<h3 style="padding-bottom: 10px;">Activity</h3>
 <div id="accordion">
     <div class="card">
         <div class="card-header" id="headingOne">
