@@ -213,7 +213,7 @@
                         <a class="dropdown-item" href="<?=BASE_URL?>self-care/eating-disorders">Eating Disorders</a>
                         <a class="dropdown-item" href="<?=BASE_URL?>self-care/sexual-assault">Sexual Assault</a>
                         <a class="dropdown-item" href="<?=BASE_URL?>self-care/trauma">Trauma</a>
-                        <a class="dropdown-item" href="<?=BASE_URL?>self-care/well-being">Well-Being at Virginia
+                        <a class="dropdown-item" href="https://well-being.vt.edu/" target="_blank">Well-Being at Virginia
                             Tech</a>
                     </div>
                 </li>
