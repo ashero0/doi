@@ -145,6 +145,7 @@ class ServicesController {
 	public function groupCounseling() {
 		$pageTitle = 'Group Counseling';
 		// $stylesheet = '';
+		$script = 'accordion';
 
 		include_once SYSTEM_PATH.'/view/header.php';
 		include_once SYSTEM_PATH.'/view/services/group-counseling.php';

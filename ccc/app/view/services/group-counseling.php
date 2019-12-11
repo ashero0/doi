@@ -28,7 +28,8 @@
             <h5 class="mb-0">
                 <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseOne"
                     aria-expanded="false" aria-controls="collapseOne">
-                    Why does group counseling work?
+                    <p>Why does group counseling work?</p>
+                    <i class="fa fa-plus"></i>
                 </button>
             </h5>
         </div>
@@ -53,7 +54,8 @@
             <h5 class="mb-0">
                 <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="false" aria-controls="collapseTwo">
-                    What do I talk about in group counseling?
+                    <p>What do I talk about in group counseling?</p>
+                    <i class="fa fa-plus"></i>
                 </button>
             </h5>
         </div>
@@ -79,7 +81,8 @@
             <h5 class="mb-0">
                 <button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseThree"
                     aria-expanded="false" aria-controls="collapseThree">
-                    Common misconceptions about group counseling
+                    <p>Common misconceptions about group counseling</p>
+                    <i class="fa fa-plus"></i>
                 </button>
             </h5>
         </div>
