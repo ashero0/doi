@@ -1,4 +1,4 @@
-<h1>Do You Have Trouble with Drinking?</h1>
+<h1>Alcoholism</h1>
 <p> Alcohol abuse is one of the leading problems suffered by college students. Alcohol can have significant effects on feelings,
 	perceptions and physiology. This kind of abuse can affect your personality, academic performance, relationships and your
 	health.</p>

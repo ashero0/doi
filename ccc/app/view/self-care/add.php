@@ -1,4 +1,4 @@
-<h1>Attention Deficit Disorder Handbook</h1>
+<h1>Attention Deficit Disorder (ADD)</h1>
 <p>Attention deficit hyperactivity disorder (ADHD) is a brain-based disorder that affects all aspects of one’s life. ADHD is
 	characterized by inattention and/or hyperactivity, which is more frequent and severe than what is typically observed in
 	individuals at a comparable level of development. Those who exhibit extreme hyperactivity are commonly diagnosed with attention
