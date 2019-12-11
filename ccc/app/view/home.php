@@ -68,7 +68,9 @@
 
 <div class="row" style="padding-top: 40px;">
     <div class="col-md-6">
-        <img src="<?=BASE_URL?>/public/assets/ccc-map.png" alt="google maps" width=590 height=325>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12708.528685016347!2d-80.4220357!3d37.2208372!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10b3ea3a41a06e1c!2sCook%20Counseling%20Center!5e0!3m2!1sen!2sus!4v1575999004611!5m2!1sen!2sus"
+            width=100% height=400 frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
     <div class="col-md-6">
         <h3>Hours</h3>
@@ -97,12 +99,12 @@
 </div>
 <h3 style="padding-top: 40px;">Information for...</h3>
 <div class="row">
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg"
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>information-for/students" class="btn btn-lg"
         style="background-color: #DDDDDD;">Students</a>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg"
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>information-for/international-students" class="btn btn-lg"
         style="background-color: #DDDDDD;">International Students</a>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg"
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>information-for/parents" class="btn btn-lg"
         style="background-color: #DDDDDD;">Parents and Families</a>
-    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>services/schedule-appointment" class="btn btn-lg"
+    &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>information-for/faculty" class="btn btn-lg"
         style="background-color: #DDDDDD;">Faculty and Staff</a>
 </div>
