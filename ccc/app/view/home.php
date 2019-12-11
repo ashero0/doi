@@ -108,3 +108,5 @@
     &nbsp;&nbsp;&nbsp;&nbsp;<a href="<?=BASE_URL?>information-for/faculty" class="btn btn-lg"
         style="background-color: #DDDDDD;">Faculty and Staff</a>
 </div>
+<br>
+<br>
