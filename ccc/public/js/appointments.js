@@ -181,7 +181,7 @@ function initializeDatePicker(date) {
             $j('#timeForm').append(apptElements);
         }
         else {
-            let apptElements = '<p>No appointments available for ' + apptInfo.counselors[counselorId] + ' on this date.</p>';
+            let apptElements = '<p>No appointments available for ' + apptInfo.counselors[counselorId]['name'] + ' on this date.</p>';
             $j('#timeForm').append(apptElements);
         }
     }
@@ -231,8 +231,18 @@ function getAvailableApptsForCounselor(date, id) {
         let index = getCorrespondingIndex(apptHours);
         availableTimes[index] = '0';
     }
-    
     return availableTimes;
+}
+
+function confirmAppt(counselor_id, hour) {
+    let counselorName = apptInfo.counselors[counselor_id]['name'];
+    let apptDate = $j('#dateForm').val();
+    var modalText = 'You are about to reserve an appointment with ' + counselorName + ' on ' + apptDate + ' at ' + get12HourFrom24Hour(hour) + '. Are you sure?';
+    var confirmed = confirm(modalText);
+
+    if (confirmed) {
+        submitAppt(counselor_id, hour);
+    }
 }
 
 function formatDate(dateString) {
