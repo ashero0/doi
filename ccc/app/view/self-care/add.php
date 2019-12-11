@@ -193,7 +193,7 @@
 		<div class="card-header" id="headingSix">
 			<h5 class="mb-0">
 				<button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-					Stratgies for Coping with ADD at Work
+					Strategies for Coping with ADD at Work
 				</button>
 			</h5>
 		</div>
@@ -299,6 +299,36 @@
 			First Floor<br>
 			Phone: 540-231-4270<br>
 			Email: <a href="mailto:Email-assit@vt.edu">Email-assit@vt.edu</a></p>
+			</div>
+			
+
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-header" id="headingEight">
+			<h5 class="mb-0">
+				<button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+				References
+				</button>
+			</h5>
+		</div>
+		<div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+			<div class="card-body">
+			<ul>
+				<li>Nadeau, K.G. (1994). Survival Guide for College Students With ADD or LD. New York: Magination Press</li>
+				<li>Quinn, P. (1994). ADD and the College Student. New York: Magination Press.</li>
+				<li>Robin, L & Schubiner, H. (1995). The Lifespan Approach to ADHD. Unpublished presentation, April 1995.</li>
+			</ul>
+			<p><b>Resources for College ADD Students</b></p>
+			<ul>
+				<li>Hallowell, E. & Ratey, J. (1994). Driven Distraction. New York: Pantheon Books.</li>
+				<li>Hallowell, E. & Ratey, J. (1994). Answers to Distraction. New York: Pantheon Books.</li>
+				<li>Hartmann, T. (1995). ADD Success Stories. Underwood Books.</li>
+				<li>Kelly, K. & Ramundo, P. (1993). You Mean I’m Not Lazy, Stupid or Crazy? Cincinnati, Ohio: Tyrell & Jerem Press.</li>
+				<li>Weiss, L. (1992). Attention Deficit Disorder in Adults. Dallas, TX: Taylor Publishing Company.</li>
+				<li>Weiss, L. (1994). Attention Deficit Disorder in Adults Workbook. Dallas, TX: Taylor Publishing Company.</li>
+			</ul>
 			</div>
 			
 
