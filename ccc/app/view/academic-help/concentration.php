@@ -35,5 +35,5 @@
 
 <h3 style="padding-top: 20px; padding-bottom: 10px;">Want to imrove your concentration and memory? Try our workshop:
 </h3>
-<a href="<?=BASE_URL?>academic-help/online-workshops/concentration-memory" target="_blank"
-    class="btn btn-primary btn-lg" style="background-color: #f26621; color: #ffff;">Concentration / Memory Workshop</a>
+<a href="<?=BASE_URL?>academic-help/online-workshops/concentration-memory" class="btn btn-primary btn-lg"
+    style="background-color: #f26621; color: #ffff;">Concentration / Memory Workshop</a>
