@@ -83,9 +83,9 @@
 
 
 
+<div class="main-container">
 
-
-<body style="position: relative">
+<header style="position: relative">
 
     <div id="universal-access">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -271,7 +271,9 @@
                 </li>
             </ul>
         </nav>
-    </div>
+    </header>
+
+    <body>
 
     <?php if(isset($_SESSION['message'])): ?>
         <?= $_SESSION['message'] ?>
