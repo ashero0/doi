@@ -16,6 +16,10 @@
 	flex-grow: 2;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+
 .navigation-link {
 	padding: 4px;
 	display: flex;
