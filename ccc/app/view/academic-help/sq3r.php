@@ -42,6 +42,6 @@
     heading. See if you can still answer them. If not, look back and refresh your memory and then continue.</p>
 
 <h3 style="padding-top: 20px; padding-bottom: 10px;">Interested in learning more about SQ3R? Try our workshop:</h3>
-<a href="<?=BASE_URL?>academic-help/online-workshops/sq3r" target="_blank" class="btn btn-primary btn-lg"
+<a href="<?=BASE_URL?>academic-help/online-workshops/sq3r" class="btn btn-primary btn-lg"
     style="background-color: #f26621; color: #ffff;">SQ3R
     Online Workshop</a>
