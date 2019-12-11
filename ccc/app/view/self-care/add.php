@@ -13,7 +13,8 @@
 		<div class="card-header" id="headingOne">
 			<h5 class="mb-0">
 				<button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-					Who has ADD?
+					<p>Who has ADD?</p>
+					<i class="fa fa-plus"></i>
 				</button>
 			</h5>
 		</div>
@@ -32,7 +33,8 @@
 		<div class="card-header" id="headingTwo">
 			<h5 class="mb-0">
 				<button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					What Causes ADD in Adolescents and Adults?
+					<p>What Causes ADD in Adolescents and Adults?</p>
+					<i class="fa fa-plus"></i>
 				</button>
 			</h5>
 		</div>
@@ -49,7 +51,8 @@
 		<div class="card-header" id="headingThree">
 			<h5 class="mb-0">
 				<button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-					Basic Characteristics of ADD
+					<p>Basic Characteristics of ADD</p>
+					<i class="fa fa-plus"></i>
 				</button>
 			</h5>
 		</div>
@@ -90,7 +93,8 @@
 		<div class="card-header" id="headingFour">
 			<h5 class="mb-0">
 				<button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-					Legal Issues for College ADD Students
+					<p>Legal Issues for College ADD Students</p>
+					<i class="fa fa-plus"></i>
 				</button>
 			</h5>
 		</div>
@@ -107,7 +111,8 @@
 		<div class="card-header" id="headingFive">
 			<h5 class="mb-0">
 				<button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-					Success Strategies for College ADD Students
+					<p>Success Strategies for College ADD Students</p>
+					<i class="fa fa-plus"></i>
 				</button>
 			</h5>
 		</div>
@@ -193,7 +198,8 @@
 		<div class="card-header" id="headingSix">
 			<h5 class="mb-0">
 				<button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-					Strategies for Coping with ADD at Work
+					<p>Strategies for Coping with ADD at Work</p>
+					<i class="fa fa-plus"></i>
 				</button>
 			</h5>
 		</div>
@@ -269,7 +275,8 @@
 		<div class="card-header" id="headingSeven">
 			<h5 class="mb-0">
 				<button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-				Resources Available to ADD Students at Virginia Tech
+					<p>Resources Available to ADD Students at Virginia Tech</p>
+					<i class="fa fa-plus"></i>
 				</button>
 			</h5>
 		</div>
@@ -309,7 +316,7 @@
 		<div class="card-header" id="headingEight">
 			<h5 class="mb-0">
 				<button class="btn btn-link accordion-button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-				References
+					<p>References</p>
 				</button>
 			</h5>
 		</div>

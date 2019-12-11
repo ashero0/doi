@@ -46,6 +46,7 @@ class SelfCareController {
 	public function add() {
 		$pageTitle = 'Attention Deficit Disoder ';
 		// $stylesheet = '';
+		$script = 'accordion';
 
 		include_once SYSTEM_PATH.'/view/header.php';
 		include_once SYSTEM_PATH.'/view/self-care/add.php';
