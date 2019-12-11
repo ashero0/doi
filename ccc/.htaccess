@@ -5,7 +5,17 @@ RewriteEngine on
 # Home
 RewriteRule ^$ app/controller/SiteController.php?route=home
 
+# Information For / Parents and Families
+RewriteRule ^information-for/parents$ app/controller/SiteController.php?route=parents
 
+# Information For / Students
+RewriteRule ^information-for/students$ app/controller/SiteController.php?route=students
+
+# Information For / International Students
+RewriteRule ^information-for/international-students$ app/controller/SiteController.php?route=international-students
+
+# Information For / Faculty and Staff
+RewriteRule ^information-for/faculty$ app/controller/SiteController.php?route=faculty
 
 # About / Contact Us
 RewriteRule ^about/contact-us$ app/controller/AboutController.php?route=contact-us
