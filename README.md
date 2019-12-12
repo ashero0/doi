@@ -1,6 +1,15 @@
-# doi
-Design of Information - Project Group 2
+# Design of Information
+Project Group 2 - Redesign of Cook Counseling Center Website
 
-Redesign of Cook Counseling Center Website
+[See the website!](http://ec2-3-135-184-38.us-east-2.compute.amazonaws.com/)
 
-https://doi-ccc.firebaseapp.com/
+"There should be a README file that gives an overview of the system, platform, etc. so that a person "skilled in the art" can re-create the system."
+
+We started our project using Angular JS and hosting on Firebase, but many of us didn't have enough experience and it seemed to be more complicated than what we actually needed for this implementation.
+
+For this website, we used Bootstrap, PHP, and Javascript to create a user-first experience that feels and looks refreshing. We hosted our project on AWS, which is also home to our SQL database. Inside the database we have three tables:
+1. **counselors**: stores each counselor's name and available times
+2. **closed-dates**: stores a list of dates when the university is closed
+3. **appointments**: stores a list of appointments that have been scheduled through the website. Each appointment has the student's ID, counselor's ID (corresponds to the counselor's table), and the time and date of the appointment. There is also an optional field for "notes" which can be edited by the database admin and could be used for a client-side feature in the future.
+
+The database we use can be easily manipulated using the PHPMyAdmin feature that AWS supplies hosting for. We believe that the staff of the Cook Counseling Center would not have any difficulty integrating the website's backend with their current database. 
