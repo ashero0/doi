@@ -2,8 +2,11 @@
 Project Group 2 - Redesign of Cook Counseling Center Website
 
 > Barbara O’Connor, barb424@vt.edu
+
 > Nicole Moore, ncmoore@vt.edu
+
 > Hithesh Peddamekala, hitp98@vt.edu
+
 > Heather Robinson, hnr2800@vt.edu
 
 [See the website!](http://ec2-3-135-184-38.us-east-2.compute.amazonaws.com/)
