@@ -13,3 +13,5 @@ For this website, we used Bootstrap, PHP, and Javascript to create a user-first 
 3. **appointments**: stores a list of appointments that have been scheduled through the website. Each appointment has the student's ID, counselor's ID (corresponds to the counselor's table), and the time and date of the appointment. There is also an optional field for "notes" which can be edited by the database admin and could be used for a client-side feature in the future.
 
 The database we use can be easily manipulated using the PHPMyAdmin feature that AWS supplies hosting for. We believe that the staff of the Cook Counseling Center would not have any difficulty integrating the website's backend with their current database. 
+
+The actual behavior of our site is controlled by a system called Apache. The list of URL redirects is defined in our top-level *.htaccess* file. Once a user goes to a certain URL, the PHP site controllers direct them to the correct content by loading data from the database, including PHP files, and importing Javascript files. Each page's content uses PHP to dynamically include different content for each user.
