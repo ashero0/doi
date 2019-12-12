@@ -3,8 +3,6 @@ Project Group 2 - Redesign of Cook Counseling Center Website
 
 [See the website!](http://ec2-3-135-184-38.us-east-2.compute.amazonaws.com/)
 
-"There should be a README file that gives an overview of the system, platform, etc. so that a person "skilled in the art" can re-create the system."
-
 We started our project using Angular JS and hosting on Firebase, but many of us didn't have enough experience and it seemed to be more complicated than what we actually needed for this implementation.
 
 For this website, we used Bootstrap, PHP, and Javascript to create a user-first experience that feels and looks refreshing. We hosted our project on AWS, which is also home to our SQL database. Inside the database we have three tables:
