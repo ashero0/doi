@@ -45,5 +45,4 @@ Available 24 hours a day</p>
 <p><a href="http://www.ulifeline.org/vt/get_help_now">ULifeline</a> - Text "START" to 741-741 or call 1-800-273-TALK (8255)</p>
 
 <p><a href="https://www.thetrevorproject.org/get-help-now/#sm.0000jm63h2ne2f52yca2dwru4zvql">The Trevor Lifeline</a> - (Suicide Prevention for LGBTQ Youth) 866-4-U-TREVOR (1-866-488-7386)</p>
-
 <p style="padding-bottom: 20px;"><a href="https://hotline.rainn.org/online/">National Sexual Assault Hotline</a> - 24-hour online hotline 1-800-656-HOPE (1-800-656-4673)</p>
