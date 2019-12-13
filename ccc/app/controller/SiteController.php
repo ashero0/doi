@@ -11,7 +11,7 @@ if ($route == 'home') {
 if ($route == 'students') {
 	$sc->students();
 }
-if ($route == 'international') {
+if ($route == 'international-students') {
 	$sc->international();
 }
 if ($route == 'parents') {

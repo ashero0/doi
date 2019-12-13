@@ -46,4 +46,4 @@ Available 24 hours a day</p>
 
 <p><a href="https://www.thetrevorproject.org/get-help-now/#sm.0000jm63h2ne2f52yca2dwru4zvql">The Trevor Lifeline</a> - (Suicide Prevention for LGBTQ Youth) 866-4-U-TREVOR (1-866-488-7386)</p>
 
-<p><a href="https://hotline.rainn.org/online/">National Sexual Assault Hotline</a> - 24-hour online hotline 1-800-656-HOPE (1-800-656-4673)</p>
+<p style="padding-bottom: 20px;"><a href="https://hotline.rainn.org/online/">National Sexual Assault Hotline</a> - 24-hour online hotline 1-800-656-HOPE (1-800-656-4673)</p>

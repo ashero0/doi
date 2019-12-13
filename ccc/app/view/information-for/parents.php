@@ -31,6 +31,6 @@
     in the state of Virginia and this prevents the counseling staff from discussing your student’s counseling in any way
     without written permission from your student. Counselors cannot confirm in any way if your student has been seen at
     the center.</p>
-<p>As parents of Virginia Tech students, please feel free to contact Cook Counseling Center if you have any concerns
+<p style="padding-bottom: 20px;">As parents of Virginia Tech students, please feel free to contact Cook Counseling Center if you have any concerns
     about your student, want the center to be aware of something concerning your student, or have questions about our
     services and how to access them.</p>
