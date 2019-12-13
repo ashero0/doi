@@ -16,11 +16,15 @@
 <p>Visit the pages below to learn more about time management strategies.</p>
 <br>
 <div class="row text-center">
-    <div class="col-md-6">
+    <div class="col-md-4">
         <a href="<?=BASE_URL?>academic-help/study-skills/time-management/scheduling-strategies"
             class="btn btn-primary btn-lg" style="background-color: #f26621; color: #ffff">Scheduling Strategies</a>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
+        <a href="<?=BASE_URL?>academic-help/online-workshops/time-management" class="btn btn-primary btn-lg"
+            style="background-color: #f26621; color: #ffff;">Time Management Workshop</a>
+    </div>
+    <div class="col-md-4">
         <a href="<?=BASE_URL?>academic-help/study-skills/time-management/scheduled-studying"
             class="btn btn-primary btn-lg" style="background-color: #f26621; color: #ffff">Scheduled Studying</a>
     </div>
